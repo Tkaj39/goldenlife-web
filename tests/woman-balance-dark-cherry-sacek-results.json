@@ -1,0 +1,59 @@
+{
+  "preview": [
+    {
+      "width": 320,
+      "overflow": false,
+      "broken_images": [],
+      "external_requests": [],
+      "page_errors": [],
+      "ingredient_modal": "pass",
+      "nextida_details": "pass",
+      "preview_switch": "pass",
+      "short_packaging": "pass"
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "broken_images": [],
+      "external_requests": [],
+      "page_errors": [],
+      "ingredient_modal": "pass",
+      "nextida_details": "pass",
+      "preview_switch": "pass",
+      "short_packaging": "pass"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "broken_images": [],
+      "external_requests": [],
+      "page_errors": [],
+      "ingredient_modal": "pass",
+      "nextida_details": "pass",
+      "preview_switch": "pass",
+      "short_packaging": "pass"
+    },
+    {
+      "width": 1280,
+      "overflow": false,
+      "broken_images": [],
+      "external_requests": [],
+      "page_errors": [],
+      "ingredient_modal": "pass",
+      "nextida_details": "pass",
+      "preview_switch": "pass",
+      "short_packaging": "pass"
+    }
+  ],
+  "source_bridge_synthetic": {
+    "matching_sachet": "pass",
+    "wrong_form_id": "pass",
+    "large_pack_host": "pass",
+    "cart_submission": "not performed"
+  },
+  "original_product_unchanged": true,
+  "offline_assets": 28,
+  "live_checkout_tested": false,
+  "claims_approved": false,
+  "assumption": "1 sachet 9 g; same recipe as one source dose"
+}
