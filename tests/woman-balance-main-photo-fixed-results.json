@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "width": 320,
+      "actual_id_and_name_fixture": "pass",
+      "standalone_default_photo": "pass",
+      "hero_and_cta": "pass",
+      "wrong_id_default": "pass",
+      "srcset_currentSrc": "pass",
+      "broken_gallery_default": "pass",
+      "replaced_gallery": "pass",
+      "overflow": false,
+      "console_errors": [],
+      "external_requests": []
+    },
+    {
+      "width": 375,
+      "actual_id_and_name_fixture": "pass",
+      "standalone_default_photo": "pass",
+      "hero_and_cta": "pass",
+      "wrong_id_default": "pass",
+      "srcset_currentSrc": "pass",
+      "broken_gallery_default": "pass",
+      "replaced_gallery": "pass",
+      "overflow": false,
+      "console_errors": [],
+      "external_requests": []
+    },
+    {
+      "width": 768,
+      "actual_id_and_name_fixture": "pass",
+      "standalone_default_photo": "pass",
+      "hero_and_cta": "pass",
+      "wrong_id_default": "pass",
+      "srcset_currentSrc": "pass",
+      "broken_gallery_default": "pass",
+      "replaced_gallery": "pass",
+      "overflow": false,
+      "console_errors": [],
+      "external_requests": []
+    },
+    {
+      "width": 1280,
+      "actual_id_and_name_fixture": "pass",
+      "standalone_default_photo": "pass",
+      "hero_and_cta": "pass",
+      "wrong_id_default": "pass",
+      "srcset_currentSrc": "pass",
+      "broken_gallery_default": "pass",
+      "replaced_gallery": "pass",
+      "overflow": false,
+      "console_errors": [],
+      "external_requests": []
+    }
+  ],
+  "live_storefront_local_dom_test": {
+    "url": "https://www.golden-life.cz/peptides-glp-1-woman-balance-sacek/",
+    "productId": "641",
+    "photos": [
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/641_sacek-peptides.png?ff=1&x=1024&y=1024&q=85&ts=6acc97df&sg=38cb01fe",
+        "hidden": false,
+        "width": 1024,
+        "visible": true
+      },
+      {
+        "src": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/641_sacek-peptides.png?ff=1&x=1024&y=1024&q=85&ts=6acc97df&sg=38cb01fe",
+        "hidden": false,
+        "width": 1024,
+        "visible": true
+      }
+    ],
+    "gallery": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/641_sacek-peptides.png?ff=1&x=1024&y=1024&q=85&ts=6acc97df&sg=38cb01fe",
+    "shop_saved": false,
+    "test_type": "local DOM injection on actual storefront"
+  },
+  "regression_cause": "old name guard required Dark Cherry; actual product 641 name lacks it",
+  "default_photo_without_js": true,
+  "copy_and_cart_unchanged": true,
+  "other_files_unchanged": true,
+  "shop_saved": false
+}

@@ -1,3 +1,11 @@
+## Oprava načítání – skutečný produkt 641
+
+Živá stránka je https://www.golden-life.cz/peptides-glp-1-woman-balance-sacek/. Její název v dataLayer je „Peptides GLP-1 Woman Balance sáček“, bez slov Dark Cherry. Původní kontrola názvu vyžadovala Dark Cherry a proto odmítala správný produkt. Oprava se váže na ověřené productId 641 a shodu hlavního formuláře, ne na marketingový název. Oba obrázky mají přímo src autentické hlavní fotografie SKU 641 a fungují i bez JS; skript pak sleduje hlavní galerii. Offline náhled obsahuje tuto fotografii vloženou jako data URI. Texty, krátký popis, tabulky a nákupní bridge nezměněny.
+
+Předchozí poznámky o nenalezené stránce a prázdném offline náhledu jsou historické a touto opravou překonané. Nasazení do uloženého Shoptet popisu je oddělené od Git aktualizace; místní browser-only test se za nasazení nevydává.
+
+---
+
 ## Aktuální úprava hlavní fotografie
 
 Původní GitHub výřez se již nezobrazuje v popisu ani CTA. Obě místa přebírají stejný načtený currentSrc hlavního obrázku z galerie hostitelského produktu, pouze pokud jde o sáčkovou Dark Cherry variantu a productId formuláře souhlasí s produktovými daty. Respektují srcset, pozdní načtení, změnu/replacement galerie a chybové stavy; bez ověřené galerie se ukáže neutrální místo fotografie, nikoli krabice jiného SKU. Produktové texty, složení, krátký popis a nákupní bridge beze změny.

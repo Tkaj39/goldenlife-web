@@ -1,36 +1,39 @@
-/* Mirror the verified host's loaded main gallery into hero + CTA.
-   No fetched product, no guessed SKU, no price/cart changes. */
+/* Product 641: default authentic photo plus host main-gallery mirroring.
+   Identity uses productId, not the merchandising title. No cart writes. */
 (()=>{
  'use strict';
  const root=document.querySelector('#special-popis[data-gl-photo-variant="woman-dark-cherry-sacek"]');
  if(!root||root.dataset.glMainPhotoBound)return;
  root.dataset.glMainPhotoBound='true';
+ const known=root.getAttribute('data-gl-photo-default');
+ const expected=root.getAttribute('data-gl-product-id');
  const targets=[...root.querySelectorAll('[data-gl-main-photo]')],failed=new Set();
  let queued=false;
- const reset=()=>targets.forEach(img=>{img.hidden=true;img.removeAttribute('src');img.parentElement.querySelector('[data-gl-main-photo-fallback]').hidden=false;});
- const show=img=>{const valid=img.complete&&img.naturalWidth>1;img.hidden=!valid;img.parentElement.querySelector('[data-gl-main-photo-fallback]').hidden=valid;};
+ const show=img=>{const valid=img.complete&&img.naturalWidth>1;img.hidden=!valid;const f=img.parentElement.querySelector('[data-gl-main-photo-fallback]');if(f)f.hidden=valid;};
+ const set=url=>targets.forEach(img=>{
+  ['srcset','sizes','data-src','data-srcset','data-lazy'].forEach(a=>img.removeAttribute(a));
+  if(img.getAttribute('src')!==url){img.hidden=true;const f=img.parentElement.querySelector('[data-gl-main-photo-fallback]');if(f)f.hidden=false;img.src=url;}
+  if(img.complete)show(img);
+ });
  const product=()=>{
-  const entries=window.dataLayer||[],form=document.querySelector('form#product-detail-form');
-  const id=form?.querySelector('[name="productId"]')?.value;
-  return entries.map(e=>e.shoptet?.product).find(p=>p&&String(p.id)===String(id)&&/woman balance/i.test(p.name||'')&&/dark[\s-]*cherry/i.test(p.name||'')&&/sáček|sacek/i.test(p.name||'')&&!p.hasVariants);
+  const form=document.querySelector('form#product-detail-form');
+  const id=form?.querySelector('[name="productId"]')?.value||form?.querySelector('[itemprop="productID"]')?.getAttribute('content');
+  return String(id)===expected&&(window.dataLayer||[]).some(e=>String(e.shoptet?.product?.id)===expected);
  };
  const sync=()=>{
   queued=false;
   if(!root.isConnected){observer.disconnect();document.removeEventListener('load',schedule,true);document.removeEventListener('error',schedule,true);return;}
-  if(!product()){reset();return;}
-  const img=document.querySelector('#main-slider-slide01 img')||document.querySelector('.p-image .p-main-image img')||document.querySelector('.p-image img');
+  if(!product()){set(known);return;}
+  const gallery=[...document.querySelectorAll('#main-slider-slide01 img,.p-image .p-main-image img,.p-image img')];
+  const img=gallery.find(i=>!root.contains(i)&&i.complete&&i.naturalWidth>1);
   const url=img&&(img.currentSrc||img.getAttribute('src'));
-  if(!img||root.contains(img)||!img.complete||img.naturalWidth<=1||!url||failed.has(url)||/missing_images|missing-image|no-image/i.test(url)){reset();return;}
-  targets.forEach(target=>{
-   ['srcset','sizes','data-src','data-srcset','data-lazy'].forEach(a=>target.removeAttribute(a));
-   if(target.getAttribute('src')!==url){target.hidden=true;target.parentElement.querySelector('[data-gl-main-photo-fallback]').hidden=false;target.src=url;}
-   if(target.complete)show(target);
-  });
+  if(!url||failed.has(url)||/missing_images|missing-image|no-image/i.test(url)){set(known);return;}
+  set(url);
  };
  function schedule(event){if(event&&root.contains(event.target))return;if(!queued){queued=true;queueMicrotask(sync);}}
- targets.forEach(img=>{img.addEventListener('load',()=>show(img));img.addEventListener('error',()=>{failed.add(img.getAttribute('src'));reset();});});
+ targets.forEach(img=>{img.addEventListener('load',()=>show(img));img.addEventListener('error',()=>{const bad=img.getAttribute('src');if(bad!==known){failed.add(bad);set(known);}else show(img);});if(img.complete)show(img);});
  const observer=new MutationObserver(records=>{if(records.some(m=>!root.contains(m.target)))schedule();});
  observer.observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src','srcset','sizes','value','content','id','name']});
  document.addEventListener('load',schedule,true);document.addEventListener('error',schedule,true);
- reset();schedule();
+ schedule();
 })();
