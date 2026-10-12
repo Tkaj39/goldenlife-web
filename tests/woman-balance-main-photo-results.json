@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "width": 320,
+      "matching_synthetic_host": "pass",
+      "both_photo_targets": "pass",
+      "srcset_currentSrc": "pass",
+      "gallery_replacement": "pass",
+      "wrong_form_id": "pass",
+      "wrong_large_pack_name": "pass",
+      "gallery_error_and_recovery": "pass",
+      "no_gallery_placeholder": "pass",
+      "overflow": false,
+      "console_errors": [],
+      "external_requests": []
+    },
+    {
+      "width": 375,
+      "matching_synthetic_host": "pass",
+      "both_photo_targets": "pass",
+      "srcset_currentSrc": "pass",
+      "gallery_replacement": "pass",
+      "wrong_form_id": "pass",
+      "wrong_large_pack_name": "pass",
+      "gallery_error_and_recovery": "pass",
+      "no_gallery_placeholder": "pass",
+      "overflow": false,
+      "console_errors": [],
+      "external_requests": []
+    },
+    {
+      "width": 768,
+      "matching_synthetic_host": "pass",
+      "both_photo_targets": "pass",
+      "srcset_currentSrc": "pass",
+      "gallery_replacement": "pass",
+      "wrong_form_id": "pass",
+      "wrong_large_pack_name": "pass",
+      "gallery_error_and_recovery": "pass",
+      "no_gallery_placeholder": "pass",
+      "overflow": false,
+      "console_errors": [],
+      "external_requests": []
+    },
+    {
+      "width": 1280,
+      "matching_synthetic_host": "pass",
+      "both_photo_targets": "pass",
+      "srcset_currentSrc": "pass",
+      "gallery_replacement": "pass",
+      "wrong_form_id": "pass",
+      "wrong_large_pack_name": "pass",
+      "gallery_error_and_recovery": "pass",
+      "no_gallery_placeholder": "pass",
+      "overflow": false,
+      "console_errors": [],
+      "external_requests": []
+    }
+  ],
+  "photo_targets": 2,
+  "source_and_preview_script_equal": true,
+  "other_files_unchanged": true,
+  "product_copy_unchanged": true,
+  "cart_bridge_unchanged": true,
+  "synthetic_host_only": true,
+  "shop_saved": false,
+  "live_sachet_page": "not found at expected URL"
+}

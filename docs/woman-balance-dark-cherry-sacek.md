@@ -1,3 +1,11 @@
+## Aktuální úprava hlavní fotografie
+
+Původní GitHub výřez se již nezobrazuje v popisu ani CTA. Obě místa přebírají stejný načtený currentSrc hlavního obrázku z galerie hostitelského produktu, pouze pokud jde o sáčkovou Dark Cherry variantu a productId formuláře souhlasí s produktovými daty. Respektují srcset, pozdní načtení, změnu/replacement galerie a chybové stavy; bez ověřené galerie se ukáže neutrální místo fotografie, nikoli krabice jiného SKU. Produktové texty, složení, krátký popis a nákupní bridge beze změny.
+
+Veřejná URL /peptides-glp-1-woman-balance-dark-cherry-sacek/ vrací stránku nenalezeno; uložené nasazení sáčkové stránky proto není ověřené. Offline náhled ukazuje zástupná místa; testování zrcadlení používá výslovně syntetické host identity a reálný referenční packshot pouze jako zkušební data.
+
+---
+
 # Woman Balance Dark Cherry – sáček: pracovní verze
 
 Zdroj: Git main d10077bca83cbcb257f56944cd32aae4a37f2485 a veřejná produktová stránka https://www.golden-life.cz/peptides-glp-1-woman-balance-dark-cherry/.

@@ -1,12 +1,11 @@
 <p>&nbsp;</p>
 <p><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /></p>
 <p>Peptides GLP-1 Woman Balance Dark Cherry – sáček | Večerní drink pro hormonální rovnováhu | Golden Life</p>
-<p><meta name="description" content="Peptides GLP-1 Woman Balance Dark Cherry – sáček – večerní night drink pro ženskou hormonální rovnováhu, kontrolu chuti a noční regeneraci. S Nextida® GLP One®, myo-inositolem a kolagenem." /><meta property="og:title" content="Peptides GLP-1 Woman Balance Dark Cherry – sáček | Ženská rovnováha ve večerním rituálu" /><meta property="og:description" content="Night drink s Nextida® GLP One®, inositoly, kolagenem a rostlinnými extrakty pro hormonální rovnováhu, kontrolu chuti a klidný spánek." /><meta property="og:image" content="https://raw.githubusercontent.com/pavel489/goldenlife-web/feat/woman-balance-dark-cherry-sacek/assets/woman-balance-dark-cherry-sacek.png" /><meta property="og:type" content="product" />
+<p><meta name="description" content="Peptides GLP-1 Woman Balance Dark Cherry – sáček – večerní night drink pro ženskou hormonální rovnováhu, kontrolu chuti a noční regeneraci. S Nextida® GLP One®, myo-inositolem a kolagenem." /><meta property="og:title" content="Peptides GLP-1 Woman Balance Dark Cherry – sáček | Ženská rovnováha ve večerním rituálu" /><meta property="og:description" content="Night drink s Nextida® GLP One®, inositoly, kolagenem a rostlinnými extrakty pro hormonální rovnováhu, kontrolu chuti a klidný spánek." /><meta property="og:type" content="product" />
 <script type="application/ld+json">{
   "@context": "https://schema.org/",
   "@type": "Product",
   "name": "Peptides GLP-1 Woman Balance Dark Cherry – sáček",
-  "image": "https://raw.githubusercontent.com/pavel489/goldenlife-web/feat/woman-balance-dark-cherry-sacek/assets/woman-balance-dark-cherry-sacek.png",
   "description": "Večerní night drink pro ženskou hormonální rovnováhu a metabolický komfort s Nextida® GLP One®, myo-inositolem, kolagenními peptidy a rostlinnými extrakty. 9 g / 1 sáček / 1 dávka.",
   "brand": {
     "@type": "Brand",
@@ -954,8 +953,14 @@
   #special-popis .reg-note p { font-size: 15px; text-align: center; }
 }
 /* =================== /PRAVIDELNOST ===================== */
+/* Hlavní galerie produktu: stejná fotografie v hero i CTA. */
+#special-popis [data-gl-main-photo][hidden],#special-popis [data-gl-main-photo-fallback][hidden]{display:none!important}
+#special-popis .gl-main-photo-placeholder{display:flex;align-items:center;justify-content:center;min-height:180px;width:100%;padding:18px;box-sizing:border-box;text-align:center;color:#555;background:rgba(255,255,255,.65);border:1px dashed #d5a5b3;border-radius:12px;font-size:14px}
+#special-popis .gl-cta-photo{flex:0 1 260px;width:100%;max-width:260px;margin:0 auto}
+#special-popis .gl-cta-photo .cta-product-img{width:100%;max-width:260px;height:auto;object-fit:contain;margin:0 auto;display:block}
+#special-popis .hero-row .heroimg{object-fit:contain;max-height:440px}
 --></style>
-<div id="special-popis">
+<div id="special-popis" data-gl-photo-variant="woman-dark-cherry-sacek">
 <div class="product-container"><!-- ===== NEXTIDA GLP-1 BANNER ===== -->
 <div class="nad-banner" id="nad-banner">
 <div class="nad-content">
@@ -992,7 +997,7 @@
 <p class="text-justify"><strong>Pro ženy 40+</strong> v&nbsp;období pre-, peri- i&nbsp;postmenopauzy. Bez agresivních stimulantů, s&nbsp;lahodnou chutí Dark Cherry.</p>
 <h2 class="barvaruzova">Hlavní účinky Peptides GLP-1 Woman Balance</h2>
 <div class="hero-img">
-<div class="hero-row"><img class="heroimg" src="https://raw.githubusercontent.com/pavel489/goldenlife-web/feat/woman-balance-dark-cherry-sacek/assets/woman-balance-dark-cherry-sacek.png" alt="Peptides GLP-1 Woman Balance Dark Cherry – sáček" /></div>
+<div class="hero-row"><img class="heroimg" data-gl-main-photo hidden alt="Hlavní fotografie produktu Peptides GLP-1 Woman Balance Dark Cherry – sáček" /><span class="gl-main-photo-placeholder" data-gl-main-photo-fallback>Hlavní fotografie se načte z galerie tohoto produktu.</span></div>
 <div class="hero-icons-grid">
 <div class="p-icon-card"><img class="p-card-img" src="https://www.golden-life.cz/user/documents/upload/piktogramy/piktogramy-bez/slim-fialova.png" alt="Kontrola chuti k jídlu" />
 <p class="p-card-p">Kontrola chuti k&nbsp;jídlu</p>
@@ -1193,7 +1198,7 @@
 </div>
 <div class="product-container">
 <div class="cta-box">
-<div class="cta-content"><img src="https://raw.githubusercontent.com/pavel489/goldenlife-web/feat/woman-balance-dark-cherry-sacek/assets/woman-balance-dark-cherry-sacek.png" alt="Peptides GLP-1 Woman Balance Dark Cherry – sáček" class="cta-product-img" />
+<div class="cta-content"><div class="gl-cta-photo"><img data-gl-main-photo hidden alt="Hlavní fotografie produktu Peptides GLP-1 Woman Balance Dark Cherry – sáček" class="cta-product-img" /><span class="gl-main-photo-placeholder" data-gl-main-photo-fallback>Hlavní fotografie se načte z galerie tohoto produktu.</span></div>
 <div class="cta-text">
 <h3 class="barvaruzova">Peptides GLP-1 Woman Balance – sáček</h3>
 <p class="cta-meta">Balení: 9 g | 1 sáček &nbsp;·&nbsp; Obsah balení: 1 denní dávka</p>
@@ -1287,3 +1292,40 @@ function sync(){var root=document.getElementById('special-popis');if(!root)retur
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',sync);else sync();new MutationObserver(function(m){if(m.some(function(x){return !x.target.closest||!x.target.closest('#special-popis');}))sync();}).observe(document.body,{childList:true,subtree:true,characterData:true});document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('#special-popis .cta-button[aria-disabled="true"]');if(a)e.preventDefault();});
 })();</script>
 </p>
+<script>/* Mirror the verified host's loaded main gallery into hero + CTA.
+   No fetched product, no guessed SKU, no price/cart changes. */
+(()=>{
+ 'use strict';
+ const root=document.querySelector('#special-popis[data-gl-photo-variant="woman-dark-cherry-sacek"]');
+ if(!root||root.dataset.glMainPhotoBound)return;
+ root.dataset.glMainPhotoBound='true';
+ const targets=[...root.querySelectorAll('[data-gl-main-photo]')],failed=new Set();
+ let queued=false;
+ const reset=()=>targets.forEach(img=>{img.hidden=true;img.removeAttribute('src');img.parentElement.querySelector('[data-gl-main-photo-fallback]').hidden=false;});
+ const show=img=>{const valid=img.complete&&img.naturalWidth>1;img.hidden=!valid;img.parentElement.querySelector('[data-gl-main-photo-fallback]').hidden=valid;};
+ const product=()=>{
+  const entries=window.dataLayer||[],form=document.querySelector('form#product-detail-form');
+  const id=form?.querySelector('[name="productId"]')?.value;
+  return entries.map(e=>e.shoptet?.product).find(p=>p&&String(p.id)===String(id)&&/woman balance/i.test(p.name||'')&&/dark[\s-]*cherry/i.test(p.name||'')&&/sáček|sacek/i.test(p.name||'')&&!p.hasVariants);
+ };
+ const sync=()=>{
+  queued=false;
+  if(!root.isConnected){observer.disconnect();document.removeEventListener('load',schedule,true);document.removeEventListener('error',schedule,true);return;}
+  if(!product()){reset();return;}
+  const img=document.querySelector('#main-slider-slide01 img')||document.querySelector('.p-image .p-main-image img')||document.querySelector('.p-image img');
+  const url=img&&(img.currentSrc||img.getAttribute('src'));
+  if(!img||root.contains(img)||!img.complete||img.naturalWidth<=1||!url||failed.has(url)||/missing_images|missing-image|no-image/i.test(url)){reset();return;}
+  targets.forEach(target=>{
+   ['srcset','sizes','data-src','data-srcset','data-lazy'].forEach(a=>target.removeAttribute(a));
+   if(target.getAttribute('src')!==url){target.hidden=true;target.parentElement.querySelector('[data-gl-main-photo-fallback]').hidden=false;target.src=url;}
+   if(target.complete)show(target);
+  });
+ };
+ function schedule(event){if(event&&root.contains(event.target))return;if(!queued){queued=true;queueMicrotask(sync);}}
+ targets.forEach(img=>{img.addEventListener('load',()=>show(img));img.addEventListener('error',()=>{failed.add(img.getAttribute('src'));reset();});});
+ const observer=new MutationObserver(records=>{if(records.some(m=>!root.contains(m.target)))schedule();});
+ observer.observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src','srcset','sizes','value','content','id','name']});
+ document.addEventListener('load',schedule,true);document.addEventListener('error',schedule,true);
+ reset();schedule();
+})();
+</script>
