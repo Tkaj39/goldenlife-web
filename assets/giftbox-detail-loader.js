@@ -33,22 +33,60 @@ function a(e,t){return n(e)||r(e,t)||o(e,t)||i()}function o(e,n){if(e){if(typeof
   }
   function mediaURL(value, base) {
     try {
-      if (/^data:image\/(png|jpeg|webp|gif);base64,/i.test(value)) return value;
+      if (/^data:image\/(png|jpeg|webp|gif);base64,/i.test(value) || /^data:image\/svg\+xml,(?:%3C|<)svg/i.test(value)) return value;
       const u = new URL(value, base);
       if (u.protocol !== 'https:' || u.username || u.password) return '';
       if (allowedOrigins.has(u.origin) && /^\/(user|cms\/img)\//.test(u.pathname)) return u.href;
       if (u.hostname === 'cdn.myshoptet.com' && /^\/(usr\/www\.golden-life\.cz\/|prj\/dist\/master\/cms\/img\/)/.test(u.pathname)) return u.href;
     } catch (_) {} return '';
   }
-  function declarations(style, base) {
+  // Only the source's approved CSS dependencies are fetched, never arbitrary head styles.
+  const cssCache = new Map();
+  const brandCSS = new Set(['UFIRST10.css','ufirst-produkt.css','all-in-one.css','UFIRST-PATCH.css']);
+  function cssURL(value, base) {
+    const u = new URL(value, base);
+    if (u.protocol !== 'https:' || u.username || u.password) throw new Error('source-css-url');
+    if (allowedOrigins.has(u.origin) && u.pathname.startsWith('/user/documents/upload/UFIRST/') && brandCSS.has(u.pathname.slice('/user/documents/upload/UFIRST/'.length))) return u.href;
+    if (u.origin === 'https://fonts.googleapis.com' && u.pathname === '/css2' && u.searchParams.getAll('family').every(f => /^(Inter|Material Symbols Outlined)(:|$)/.test(f)) && u.searchParams.has('family')) return u.href;
+    throw new Error('source-css-url');
+  }
+  function fontURL(value, base) {
+    try {
+      const u = new URL(value, base);
+      if (u.protocol !== 'https:' || u.username || u.password) return '';
+      if (u.origin === 'https://fonts.gstatic.com' && /^\/s\/[a-z0-9/_-]+\.(woff2?|ttf|otf)$/i.test(u.pathname)) return u.href;
+      if (allowedOrigins.has(u.origin) && /^\/user\/documents\/[^?#]+\.(woff2?|ttf|otf)$/i.test(u.pathname)) return u.href;
+    } catch (_) {} return '';
+  }
+  function declaredProperties(style) {
+    // CSSOM expands variable-valued shorthands into empty longhands; keep the authored shorthand.
+    const props = [], text = style.cssText;
+    let start = 0, depth = 0, quote = '', escaped = false;
+    for (let i = 0; i <= text.length; i++) {
+      const c = text[i] || ';';
+      if (escaped) { escaped = false; continue; }
+      if (c === '\\') { escaped = true; continue; }
+      if (quote) { if (c === quote) quote = ''; continue; }
+      if (c === '"' || c === "'") { quote = c; continue; }
+      if (c === '(' || c === '[' || c === '{') depth++;
+      if (c === ')' || c === ']' || c === '}') depth--;
+      if (c === ';' && depth === 0) {
+        const match = text.slice(start,i).match(/^\s*([-\w]+)\s*:/);
+        if (match) props.push(match[1]);
+        start = i + 1;
+      }
+    }
+    return props;
+  }
+  function declarations(style, base, isFont = false) {
     const out = [];
-    for (const prop of style) {
+    for (const prop of declaredProperties(style)) {
       let value = style.getPropertyValue(prop);
       if (/^(behavior|-moz-binding|animation|animation-name)$/i.test(prop) || /expression\s*\(|javascript:|@import/i.test(value)) continue;
       let bad = false;
       value = value.replace(/url\(\s*(["']?)(.*?)\1\s*\)/gi, (_, q, raw) => {
         if (raw.startsWith('#')) return 'url("' + raw.replace(/["\\]/g, '') + '")';
-        const url = mediaURL(raw, base); if (!url) { bad = true; return ''; }
+        const url = isFont ? fontURL(raw, base) : mediaURL(raw, base); if (!url) { bad = true; return ''; }
         return 'url("' + url.replace(/["\\]/g, '') + '")';
       });
       if (bad) continue;
@@ -57,9 +95,9 @@ function a(e,t){return n(e)||r(e,t)||o(e,t)||i()}function o(e,n){if(e){if(typeof
     }
     return out.join('');
   }
-  function cleanCSS(text, base) {
+  function cleanCSS(text, base, fonts = []) {
     const sheet = new CSSStyleSheet();
-    try { sheet.replaceSync(text.replace(/<!--|-->/g, '').replace(/@import\s+[^;]+;/gi, '')); } catch (_) { return ''; }
+    try { sheet.replaceSync(text.replace(/<!--|-->/g, '')); } catch (_) { throw new Error('source-css-parse'); }
     function rules(list) {
       let out = '';
       for (const r of list) {
@@ -68,13 +106,55 @@ function a(e,t){return n(e)||r(e,t)||o(e,t)||i()}function o(e,n){if(e){if(typeof
           out += sel + '{' + declarations(r.style, base) + '}';
         } else if (r.type === CSSRule.MEDIA_RULE) out += '@media ' + r.conditionText + '{' + rules(r.cssRules) + '}';
         else if (r.type === CSSRule.SUPPORTS_RULE) out += '@supports ' + r.conditionText + '{' + rules(r.cssRules) + '}';
+        else if (r.type === CSSRule.FONT_FACE_RULE) {
+          const face = declarations(r.style, base, true);
+          if (r.style.fontFamily && /(?:^|;)src:/.test(face)) fonts.push('@font-face{' + face + '}');
+        }
       }
       return out;
     }
     return rules(sheet.cssRules);
   }
+  async function importedCSS(text, base, signal, fonts, trail = []) {
+    // Expand in source order, including media-qualified imports and nested dependencies.
+    const source = text.replace(/<!--|-->/g, '').replace(/\/\*[\s\S]*?\*\//g, '');
+    const re = /@import\s+(?:url\(\s*(?:"([^\"]*)"|'([^']*)'|([^\s)'\"]+))\s*\)|"([^\"]*)"|'([^']*)')\s*([^;]*);/gi;
+    let out = '', cursor = 0, match;
+    while ((match = re.exec(source))) {
+      out += cleanCSS(source.slice(cursor, match.index), base, fonts);
+      const url = cssURL(match[1] || match[2] || match[3] || match[4] || match[5], base);
+      if (trail.includes(url) || trail.length >= 5) throw new Error('source-css-cycle');
+      if (!cssCache.has(url)) {
+        const promise = (async () => {
+          const response = await fetch(url, {credentials:'omit',cache:'no-store',signal,headers:{Accept:'text/css'}});
+          if (!response.ok || !(response.headers.get('content-type') || '').includes('text/css')) throw new Error('source-css-http');
+          cssURL(response.url || url, base);
+          const css = await response.text();
+          if (css.length > 300000) throw new Error('source-css-size');
+          return {css, url:response.url || url};
+        })();
+        cssCache.set(url, promise);promise.catch(() => cssCache.delete(url));
+      }
+      const data = await cssCache.get(url);
+      const nested = await importedCSS(data.css, data.url, signal, fonts, [...trail, url]);
+      const media = match[6].trim();
+      if (/\b(?:layer|supports)\s*\(/i.test(media)) throw new Error('source-css-condition');
+      out += media ? '@media ' + media + '{' + nested + '}' : nested;
+      cursor = re.lastIndex;
+    }
+    const rest = source.slice(cursor);
+    if (/@import\b/i.test(rest)) throw new Error('source-css-parse');
+    return out + cleanCSS(rest, base, fonts);
+  }
+  function installFonts(faces) {
+    // Chromium does not resolve @font-face defined solely inside a ShadowRoot.
+    for (const face of new Set(faces)) {
+      if ([...document.querySelectorAll('style[data-gl-reader-font-face]')].some(s => s.textContent === face)) continue;
+      const style = document.createElement('style');style.dataset.glReaderFontFace = '';style.textContent = face;document.head.append(style);
+    }
+  }
   const readerCSS = `:host{display:block;contain:layout style;min-width:0;color:#333;font:16px/1.6 Metropolis,Arial,sans-serif}*{box-sizing:border-box}img,svg{max-width:100%}img{height:auto}p{overflow-wrap:anywhere}table{max-width:100%}details>summary{cursor:pointer;min-height:44px}a:focus-visible,summary:focus-visible,label:focus-visible{outline:3px solid #9c7b2e;outline-offset:3px}.gl-reader-table{display:block;overflow-x:auto;max-width:100%}#special-popis{max-width:100%}.basic-description>h3:first-child{display:none}.gl-reader-table:focus-visible{outline:3px solid #9c7b2e}.material-symbols-outlined{font-family:'Material Symbols Outlined'!important;font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased}.uf-img{opacity:1!important}.carousel-track,.step-track{transform:none!important;display:flex!important;overflow-x:auto!important;max-width:100%!important}.carousel-slide,.step-slide{flex:0 0 85%!important;max-width:100%!important}.carousel-dots,.step-dots{display:none!important}@media(max-width:600px){.text-justify{text-align:left!important}.product-container{max-width:100%!important;padding-inline:10px!important}}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}`;
-  function prepare(html, url, expectedID) {
+  async function prepare(html, url, expectedID, signal) {
     // Template content is inert: unrelated homepage/navigation images cannot load during extraction.
     const template = document.createElement('template'); template.innerHTML = html;
     const doc = template.content;
@@ -83,9 +163,12 @@ function a(e,t){return n(e)||r(e,t)||o(e,t)||i()}function o(e,n){if(e){if(typeof
     const area = doc.querySelector('.basic-description') || doc.querySelector('#special-popis') || doc.querySelector('.ufirst-detail');
     if (!area) throw new Error('source-empty');
     const copy = area.cloneNode(true);
-    const styles = [...copy.querySelectorAll('style')].map(s => cleanCSS(s.textContent, url));
-    if (!styles.length) {
-      doc.querySelectorAll('style').forEach(s => { if (/#special-popis|\.ufirst-detail/.test(s.textContent)) styles.push(cleanCSS(s.textContent, url)); });
+    const fonts = [], styles = [];
+    let styleNodes = [...copy.querySelectorAll('style,link[rel~=stylesheet]')];
+    if (!styleNodes.length) styleNodes = [...doc.querySelectorAll('style')].filter(s => /#special-popis|\.ufirst-detail/.test(s.textContent));
+    for (const node of styleNodes) {
+      const text = node.tagName === 'LINK' ? '@import url("' + cssURL(node.getAttribute('href'),url) + '");' : node.textContent;
+      styles.push(await importedCSS(text, url, signal, fonts));
     }
     // Keep factual pack information even when it lives inside a purchase box.
     copy.querySelectorAll('.cta-box').forEach(cta => {
@@ -131,7 +214,7 @@ function a(e,t){return n(e)||r(e,t)||o(e,t)||i()}function o(e,n){if(e){if(typeof
     const wrap=document.createElement('div');wrap.append(clean);
     wrap.querySelectorAll('table').forEach(table => { table.classList.add('gl-reader-table');table.tabIndex=0;table.setAttribute('aria-label','Tabulka produktu – lze posouvat'); });
     wrap.querySelectorAll('.material-symbols-outlined').forEach(n=>n.style.setProperty('font-family','Material Symbols Outlined','important'));
-    return {html:wrap.innerHTML,css:styles.join('\n'),icons:!!wrap.querySelector('.material-symbols-outlined')};
+    return {html:wrap.innerHTML,css:styles.join('\n'),fonts,icons:!!wrap.querySelector('.material-symbols-outlined')};
   }
   async function load(trigger) {
     const url = productURL(trigger.dataset.glSourceUrl).href;
@@ -146,7 +229,7 @@ function a(e,t){return n(e)||r(e,t)||o(e,t)||i()}function o(e,n){if(e){if(typeof
           if (!response.ok) throw new Error('source-http');
           productURL(response.url || url);
           if (!(response.headers.get('content-type')||'').includes('text/html')) throw new Error('source-type');
-          return prepare(await response.text(),response.url||url,expectedID);
+          return await prepare(await response.text(),response.url||url,expectedID,controller.signal);
         } finally { clearTimeout(timeout); }
       })();
       cache.set(key,promise);promise.catch(()=>cache.delete(key));
@@ -176,12 +259,13 @@ function a(e,t){return n(e)||r(e,t)||o(e,t)||i()}function o(e,n){if(e){if(typeof
       if(token!==serial||active!==trigger)return;
       const style=document.createElement('style');style.textContent=data.css+'\n'+readerCSS;
       const content=document.createElement('div');content.innerHTML=data.html;shadow.replaceChildren(style,content);
-      if(data.icons)font();
+      installFonts(data.fonts || []);
+      if(data.icons && !(data.fonts || []).some(f => /Material Symbols Outlined/.test(f)))font();
       status.textContent=box.hasAttribute('data-gl-preview')?'Ukázka z uloženého snímku zdrojové stránky. Na e-shopu se tento obsah načítá živě.':'Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.';
       shadow.querySelectorAll('a[data-gl-anchor]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const el=shadow.getElementById(a.dataset.glAnchor);if(el)el.scrollIntoView({block:'start',behavior:'auto'});}));
     } catch(e) {
       if(token!==serial||active!==trigger)return;
-      status.textContent=e.message==='source-empty'?'Na zdrojové stránce zatím není podrobný popis produktu. Jakmile bude doplněný, načte se sem.':e.message==='source-identity'?'Odkaz neodpovídá očekávanému produktu. Podrobnosti se nepodařilo bezpečně načíst.':'Podrobný popis se teď nepodařilo načíst. Můžeš to zkusit znovu, stránku boxu neopouštíš.';
+      status.textContent=/^source-css-/.test(e.message)?'Styly zdrojového produktu se nepodařilo načíst. Zkus to prosím znovu; neúplný detail se nezobrazuje.':e.message==='source-empty'?'Na zdrojové stránce zatím není podrobný popis produktu. Jakmile bude doplněný, načte se sem.':e.message==='source-identity'?'Odkaz neodpovídá očekávanému produktu. Podrobnosti se nepodařilo bezpečně načíst.':'Podrobný popis se teď nepodařilo načíst. Můžeš to zkusit znovu, stránku boxu neopouštíš.';
       retry.hidden=false;
     } finally {if(token===serial)host.removeAttribute('aria-busy');}
   }
