@@ -226,6 +226,25 @@
         1024,
         1024
       ]
+    },
+    {
+      "name": "bottle_ufirst",
+      "url": "https://www.golden-life.cz/lahev-ufirst/",
+      "product_id": "638",
+      "has_description": false,
+      "scope": "UFIRST gift box only",
+      "verified_at": "2026-10-15T08:31:29.838317+00:00",
+      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/638-1_ufirst-lahev-1024-v1.png?ff=1&x=1024&y=1024&q=85&ts=6ad08ec5&sg=38cb01fe",
+      "image_alt": "Lahev UFIRST",
+      "image_bytes": 132873,
+      "sha256": "e324954334087f36ef9eb662f276e6af6d084b5a8d53bc0cf420b83af1acab93",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "page_url": "https://www.golden-life.cz/lahev-ufirst/",
+      "status": "verified-real-product-photo",
+      "selector": ".p-image img"
     }
   ]
 }

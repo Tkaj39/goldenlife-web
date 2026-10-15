@@ -84,6 +84,14 @@
       "url": "https://www.golden-life.cz/care-free/",
       "product_id": "585",
       "has_description": true
+    },
+    {
+      "name": "bottle_ufirst",
+      "url": "https://www.golden-life.cz/lahev-ufirst/",
+      "product_id": "638",
+      "has_description": false,
+      "scope": "UFIRST gift box only",
+      "verified_at": "2026-10-15T08:31:29.838091+00:00"
     }
   ],
   "note": "Detailed information is fetched from these canonical pages; this file lists routing, not duplicate product copy. Bottle currently has no description."
