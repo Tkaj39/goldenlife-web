@@ -23,13 +23,31 @@
     if(ready()||loading)return;
     loading=true;
     const script=document.createElement('script');
-    script.src='https://cdn.jsdelivr.net/gh/pavel489/goldenlife-web@912c837872b8ed6b882746590b0b7aaf94f8f44c/assets/giftbox-detail-loader.js';
-    script.integrity='sha384-3VsjMF1W22YF/whwckaS38hWgk9eJ9ZhGIXWKVqQH9Xu9bQyjNG3aNf5iRc6XLrx';
+    script.src='https://cdn.jsdelivr.net/gh/pavel489/goldenlife-web@a71372aa77f2a8ab3b439d8fef834cace401cccc/assets/giftbox-detail-loader.js';
+    script.integrity='sha384-Bps/lJBbNyCFGEd9Flb+LRZ2rDKRO8it3XjcImktY+OjuV5f+vdD/IP9O9Ra5IlK';
     script.crossOrigin='anonymous';
     script.async=true;
-    const timeout=setTimeout(failed,15000);
-    script.onload=()=>{clearTimeout(timeout);if(!ready())failed();};
-    script.onerror=()=>{clearTimeout(timeout);script.remove();failed();};
+    let settled=false;
+    const pin='a71372aa77f2a8ab3b439d8fef834cace401cccc';
+    const sri='sha384-Bps/lJBbNyCFGEd9Flb+LRZ2rDKRO8it3XjcImktY+OjuV5f+vdD/IP9O9Ra5IlK';
+    const timeout=setTimeout(fallback,15000);
+    script.onload=()=>{if(settled)return;settled=true;clearTimeout(timeout);if(!ready())failed();};
+    script.onerror=fallback;
+    async function fallback(){
+      if(settled)return;
+      settled=true;clearTimeout(timeout);script.remove();
+      // CDN outage fallback: the same immutable Git blob, checked before any execution.
+      const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),20000);
+      try{
+        const response=await fetch('https://raw.githubusercontent.com/pavel489/goldenlife-web/'+pin+'/assets/giftbox-detail-loader.js',{credentials:'omit',cache:'no-store',signal:controller.signal});
+        if(!response.ok)throw Error('reader-http');
+        const bytes=await response.arrayBuffer(),hash=await crypto.subtle.digest('SHA-384',bytes);
+        const actual='sha384-'+btoa(String.fromCharCode(...new Uint8Array(hash)));
+        if(actual!==sri)throw Error('reader-integrity');
+        const local=document.createElement('script');local.textContent=new TextDecoder().decode(bytes);document.head.append(local);local.remove();
+        if(!ready())failed();
+      }catch(_){failed();}finally{clearTimeout(timer);}
+    }
     document.head.append(script);
   }
   function close(){

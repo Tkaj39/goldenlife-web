@@ -1,0 +1,548 @@
+{
+  "responsive": {
+    "responsiveCases": 19,
+    "rows": [
+      {
+        "slug": "ufirst-all-in-one-drink-",
+        "width": 320,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/all-in-one.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(236, 252, 254)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 80145,
+          "importsRemaining": false,
+          "tables": 2,
+          "details": 19,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 268,
+          "hostWidth": 238,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "ufirst-all-in-one-drink-",
+        "width": 390,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/all-in-one.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(236, 252, 254)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 80145,
+          "importsRemaining": false,
+          "tables": 2,
+          "details": 19,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 308,
+          "hostWidth": 308,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "ufirst-all-in-one-drink-",
+        "width": 768,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/all-in-one.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(236, 252, 254)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 80145,
+          "importsRemaining": false,
+          "tables": 2,
+          "details": 19,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 702,
+          "hostWidth": 702,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "ufirst-all-in-one-drink-",
+        "width": 1024,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/all-in-one.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(236, 252, 254)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 80145,
+          "importsRemaining": false,
+          "tables": 2,
+          "details": 19,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 958,
+          "hostWidth": 958,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "ufirst-all-in-one-drink-",
+        "width": 1440,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/all-in-one.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(236, 252, 254)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 80145,
+          "importsRemaining": false,
+          "tables": 2,
+          "details": 19,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 1058,
+          "hostWidth": 1058,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "brain-focus",
+        "width": 320,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(226, 231, 41)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 60707,
+          "importsRemaining": false,
+          "tables": 1,
+          "details": 16,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 243,
+          "hostWidth": 238,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "brain-focus",
+        "width": 390,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(226, 231, 41)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 60707,
+          "importsRemaining": false,
+          "tables": 1,
+          "details": 16,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 308,
+          "hostWidth": 308,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "brain-focus",
+        "width": 768,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(226, 231, 41)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 60707,
+          "importsRemaining": false,
+          "tables": 1,
+          "details": 16,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 702,
+          "hostWidth": 702,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "brain-focus",
+        "width": 1024,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(226, 231, 41)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 60707,
+          "importsRemaining": false,
+          "tables": 1,
+          "details": 16,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 958,
+          "hostWidth": 958,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "brain-focus",
+        "width": 1440,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(226, 231, 41)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 60707,
+          "importsRemaining": false,
+          "tables": 1,
+          "details": 16,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 1058,
+          "hostWidth": 1058,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "care-free",
+        "width": 320,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(226, 231, 41)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 60707,
+          "importsRemaining": false,
+          "tables": 1,
+          "details": 15,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 238,
+          "hostWidth": 238,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "care-free",
+        "width": 390,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(226, 231, 41)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 60707,
+          "importsRemaining": false,
+          "tables": 1,
+          "details": 15,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 308,
+          "hostWidth": 308,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "care-free",
+        "width": 768,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(226, 231, 41)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 60707,
+          "importsRemaining": false,
+          "tables": 1,
+          "details": 15,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 702,
+          "hostWidth": 702,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "care-free",
+        "width": 1024,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(226, 231, 41)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 60707,
+          "importsRemaining": false,
+          "tables": 1,
+          "details": 15,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 958,
+          "hostWidth": 958,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "slug": "care-free",
+        "width": 1440,
+        "cssRequests": [
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+          "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css"
+        ],
+        "state": {
+          "token": "#1F9CAD",
+          "bodyColor": "rgb(18, 38, 43)",
+          "headlineColor": "rgb(226, 231, 41)",
+          "headlineFont": "Impact, Haettenschweiler, \"Arial Narrow Bold\", sans-serif",
+          "cssBytes": 60707,
+          "importsRemaining": false,
+          "tables": 1,
+          "details": 15,
+          "scriptCount": 0,
+          "purchaseButtons": 0,
+          "shadowWidth": 1058,
+          "hostWidth": 1058,
+          "outerOverflow": false,
+          "nativeCSSParity": true
+        },
+        "cssIsolation": true,
+        "nativeControls": true
+      },
+      {
+        "accessory": 0,
+        "width": 390,
+        "detailLoaded": true
+      },
+      {
+        "accessory": 0,
+        "width": 1440,
+        "detailLoaded": true
+      },
+      {
+        "accessory": 1,
+        "width": 390,
+        "detailLoaded": true
+      },
+      {
+        "accessory": 1,
+        "width": 1440,
+        "detailLoaded": true
+      }
+    ],
+    "checks": [
+      "failed-css-shows-retry-and-recovers-without-reload",
+      "unapproved-stylesheet-never-fetched"
+    ],
+    "jsErrors": [],
+    "failedAssets": [],
+    "source": "Actual current public product HTML and original four UFIRST libraries; assets replayed from verified HTTP responses. No shop write.",
+    "shopDeployed": false
+  },
+  "offline": {
+    "cases": 10,
+    "rows": [
+      {
+        "width": 390,
+        "idx": 0,
+        "status": "Ukázka z uloženého snímku zdrojové stránky. Na e-shopu se tento obsah načítá živě."
+      },
+      {
+        "width": 390,
+        "idx": 1,
+        "status": "Ukázka z uloženého snímku zdrojové stránky. Na e-shopu se tento obsah načítá živě."
+      },
+      {
+        "width": 390,
+        "idx": 2,
+        "status": "Ukázka z uloženého snímku zdrojové stránky. Na e-shopu se tento obsah načítá živě."
+      },
+      {
+        "width": 390,
+        "idx": 3,
+        "status": "Ukázka z uloženého snímku zdrojové stránky. Na e-shopu se tento obsah načítá živě."
+      },
+      {
+        "width": 390,
+        "idx": 4,
+        "status": "Ukázka z uloženého snímku zdrojové stránky. Na e-shopu se tento obsah načítá živě."
+      },
+      {
+        "width": 1440,
+        "idx": 0,
+        "status": "Ukázka z uloženého snímku zdrojové stránky. Na e-shopu se tento obsah načítá živě."
+      },
+      {
+        "width": 1440,
+        "idx": 1,
+        "status": "Ukázka z uloženého snímku zdrojové stránky. Na e-shopu se tento obsah načítá živě."
+      },
+      {
+        "width": 1440,
+        "idx": 2,
+        "status": "Ukázka z uloženého snímku zdrojové stránky. Na e-shopu se tento obsah načítá živě."
+      },
+      {
+        "width": 1440,
+        "idx": 3,
+        "status": "Ukázka z uloženého snímku zdrojové stránky. Na e-shopu se tento obsah načítá živě."
+      },
+      {
+        "width": 1440,
+        "idx": 4,
+        "status": "Ukázka z uloženého snímku zdrojové stránky. Na e-shopu se tento obsah načítá živě."
+      }
+    ],
+    "requests": [],
+    "errors": []
+  },
+  "bootstrap": {
+    "rows": [
+      {
+        "mode": "cdn",
+        "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+        "rawCount": 0,
+        "cdnCount": 1
+      },
+      {
+        "mode": "fallback",
+        "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+        "rawCount": 1,
+        "cdnCount": 1
+      },
+      {
+        "mode": "tampered",
+        "status": "Načítání podrobností se nepodařilo spustit. Zkus to prosím znovu; stránku boxu neopouštíš.",
+        "rawCount": 1,
+        "cdnCount": 1
+      },
+      {
+        "mode": "actual-public-network-local-host-only",
+        "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+        "response": [
+          {
+            "url": "https://cdn.jsdelivr.net/gh/pavel489/goldenlife-web@a71372aa77f2a8ab3b439d8fef834cace401cccc/assets/giftbox-detail-loader.js",
+            "http": 200
+          },
+          {
+            "url": "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST10.css",
+            "http": 200
+          },
+          {
+            "url": "https://www.golden-life.cz/user/documents/upload/UFIRST/ufirst-produkt.css",
+            "http": 200
+          },
+          {
+            "url": "https://www.golden-life.cz/user/documents/upload/UFIRST/UFIRST-PATCH.css",
+            "http": 200
+          }
+        ],
+        "cssToken": "#1F9CAD",
+        "shopDeployed": false
+      }
+    ]
+  }
+}
