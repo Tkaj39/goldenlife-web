@@ -1,11 +1,11 @@
 {
-  "photo_urls": {
-    "ufirst": null,
-    "beauty": null,
-    "longevity": null,
-    "hormonal": null,
-    "slim": null
-  },
-  "configure": "Set data-gl-packaging-src on the sixth card to an authenticated/verified correct variant photo URL (same origin or HTTPS golden-life.cz / cdn.myshoptet.com). Do not reuse another variant. Button becomes visible only after successful image load.",
-  "fallback": "Symbol of packaging, not a photograph; no sixth product, no extra purchase."
+  "source": "native gallery of the same host product",
+  "photo_index": 2,
+  "selection": "second unique photo from .p-thumbnail[href] in native gallery order; duplicate lightbox/size links ignored; first photo and selected main image do not determine the second slot",
+  "no_shared_UFIRST_photo_for_other_boxes": true,
+  "UFIRST_verified_product_id": "665",
+  "UFIRST_verified_public_url": "https://www.golden-life.cz/ufirst-darkovy-box/",
+  "fallback": "No pictogram. A clear text note when the native product gallery is absent, has fewer than two photos, fails to load or mismatches the expected product ID. No substitute from a different box.",
+  "reload_on_gallery_change": true,
+  "shop_deployed": false
 }

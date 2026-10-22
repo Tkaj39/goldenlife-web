@@ -1,0 +1,15 @@
+# Šestá karta: druhá fotografie z galerie stejného dárkového boxu
+
+U všech pěti variant (Beauty, Hormonal, Longevity, Slim a UFIRST) se symbol balení nahrazuje druhou skutečnou fotografií z nativní galerie stejného hostitelského produktu. Upravené jsou dlouhé CMS fragmenty i párové plné dokumenty. Pět produktových fotografií, tlačítka detailů i jejich čtečka zůstávají byte-for-byte beze změny. Krátké popisy tuto kartu neobsahují a nemění se.
+
+Použije se pořadí nativních `.p-thumbnail[href]`, nikoli číselná přípona souboru ani aktuálně vybraný hlavní obrázek. Duplicitní lightbox odkazy a velikostní kopie se nepočítají. Fotografie se nepřebírá z jiného boxu ani ze souvisejících produktů. Pokud se galerie později načte, přeuspořádá nebo nahradí, karta ji následuje. Kliknutí otevře zvětšení, Escape zavře a vrátí fokus. Při chybě nebo méně než dvou fotografiích je viditelná vysvětlující textová poznámka, ne piktogram ani vymyšlený obrázek. Neúspěšná URL se netočí v nekonečném opakování.
+
+## Ověřené zdroje a omezení
+Veřejně ověřená galerie UFIRST: https://www.golden-life.cz/ufirst-darkovy-box/, productId 665. Druhý snímek je aktuálně `665-5_leos-mares.png` (1024×1024, HTTP 200), tedy fotografie s člověkem, nikoli samotná dárková krabice. Výběr pořadí je doslovný podle zadání. Nikdo se negeneroval ani neupravoval. Ostatní čtyři veřejné URL nebyly v sitemapě a vyhledávání boxů nalezeny; jejich skutečná druhá fotografie se proto nekopíruje z UFIRST, ale naváže až na vlastní nativní galerii po vložení do příslušného produktu. Beauty zachovává stávající ochranu očekávaného productId 656. UFIRST má ochranu fotografie pro ověřené ID 665; košíkový bridge se tím nemění.
+
+## Testy a předání
+20 responzivních testů (5 variant × 320/390/768/1440 px) se zřetelně syntetickými izolovanými galeriemi: přesně druhá unikátní fotografie, pět nezměněných produktových akcí, žádný piktogram, zvětšení/Escape/fokus a stabilita při změně hlavní fotografie. Další testy: pozdní galerie, jen jedna fotografie, nesouhlas produktu, chyba načtení fotografie a změna pořadí galerie. Skutečný browser test použil aktuální veřejnou galerii UFIRST a původní veřejné URL fotografie; jen hostitelský dokument byl lokální náhrada. Bez chyb JavaScriptu a bez nákupních akcí. Vizuálně zkontrolován mobilní snímek šesté karty i desktopová mřížka šesti fotografií.
+
+Do HTML režimu dlouhého popisu patří celý odpovídající soubor `shoptet/{beauty,hormonal,longevity,slim,ufirst}.html`. Předaný offline náhled ukazuje pouze aktuální příklad šesté karty UFIRST; neobsahuje galerii jiných boxů a není k vložení do CMS. Git publikace není nasazení do Shoptetu; po uložení do CMS je potřeba ověřit skutečnou stránku a vlastní pořadí galerie.
+
+Výchozí Git main 490b544b3d7c2e253012d485675b6d9e055e92ed, brand/RULES.md a aktuální veřejná galerie UFIRST. Model GPT-6.1-sol, Python a Chromium/Playwright; existující Composio GitHub spojení. Bez placeného generování (0 Kč za generování), cenu modelu a konektoru nelze doložit. Zdravotní tvrzení se touto změnou nepřidávají, nepřepisují ani neschvalují.
