@@ -1,0 +1,44 @@
+{
+  "variants": [
+    {
+      "variant": "beauty",
+      "unchangedCopy": true,
+      "unchangedFiveProductIdentities": true,
+      "fiveVerifiedPhotos": true,
+      "packagingCardPreserved": true
+    },
+    {
+      "variant": "hormonal",
+      "unchangedCopy": true,
+      "unchangedFiveProductIdentities": true,
+      "fiveVerifiedPhotos": true,
+      "packagingCardPreserved": true
+    },
+    {
+      "variant": "longevity",
+      "unchangedCopy": true,
+      "unchangedFiveProductIdentities": true,
+      "fiveVerifiedPhotos": true,
+      "packagingCardPreserved": true
+    },
+    {
+      "variant": "slim",
+      "unchangedCopy": true,
+      "unchangedFiveProductIdentities": true,
+      "fiveVerifiedPhotos": true,
+      "packagingCardPreserved": true
+    }
+  ],
+  "UFIRST_unchanged": [
+    "shoptet/ufirst.html",
+    "web/Golden Life Darkovy box UFIRST/Golden_Life_Darkovy_box_UFIRST_cz.html",
+    "web/Golden Life Darkovy box UFIRST/maly/Golden-Life-Darkovy-box-UFIRST-maly-cz.html"
+  ],
+  "HTML_changes_only": [
+    "current card gallery URLs",
+    "new immutable reader/SRI bootstrap"
+  ],
+  "product_card_occurrences": 20,
+  "current_unique_sources": 11,
+  "shop_deployed": false
+}

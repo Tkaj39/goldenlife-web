@@ -1,71 +1,82 @@
 {
-  "verified_at": "2026-10-07T08:33:11.185888+00:00",
+  "verified_at": "2026-10-22T07:51:02.004826+00:00",
   "sources": [
     {
       "name": "bottle",
       "url": "https://www.golden-life.cz/lahev-golden-life/",
       "product_id": "597",
-      "has_description": false
+      "has_description": true,
+      "verified_at": "2026-10-22T07:51:02.004826+00:00"
     },
     {
       "name": "mixer",
       "url": "https://www.golden-life.cz/michatko/",
       "product_id": "653",
-      "has_description": true
+      "has_description": true,
+      "verified_at": "2026-10-22T07:51:02.004826+00:00"
     },
     {
       "name": "pineapple",
       "url": "https://www.golden-life.cz/slim-extreme-collagen-box-s-prichuti-ananasu/",
       "product_id": "383",
-      "has_description": true
+      "has_description": true,
+      "verified_at": "2026-10-22T07:51:02.004826+00:00"
     },
     {
       "name": "mango",
       "url": "https://www.golden-life.cz/slim-extreme-collagen-box-ananas-mango/",
       "product_id": "464",
-      "has_description": true
+      "has_description": true,
+      "verified_at": "2026-10-22T07:51:02.004826+00:00"
     },
     {
       "name": "booster",
       "url": "https://www.golden-life.cz/slim-detox-power-plus-booster/",
       "product_id": "174",
-      "has_description": true
+      "has_description": true,
+      "verified_at": "2026-10-22T07:51:02.004826+00:00"
     },
     {
       "name": "sleep",
       "url": "https://www.golden-life.cz/good-sleep-night-burn/",
       "product_id": "57",
-      "has_description": true
+      "has_description": true,
+      "verified_at": "2026-10-22T07:51:02.004826+00:00"
     },
     {
       "name": "woman",
       "url": "https://www.golden-life.cz/woman-hormonal-balance/",
       "product_id": "644",
-      "has_description": true
+      "has_description": true,
+      "verified_at": "2026-10-22T07:51:02.004826+00:00"
     },
     {
       "name": "peptides",
       "url": "https://www.golden-life.cz/peptides-glp-1-woman-balance-dark-cherry/",
       "product_id": "635",
-      "has_description": true
+      "has_description": true,
+      "verified_at": "2026-10-22T07:51:02.004826+00:00"
     },
     {
       "name": "antiage",
       "url": "https://www.golden-life.cz/anti-age-longevity-nad-/",
       "product_id": "550",
-      "has_description": true
+      "has_description": true,
+      "verified_at": "2026-10-22T07:51:02.004826+00:00"
     },
     {
       "name": "beautynad",
       "url": "https://www.golden-life.cz/beauty-longevity-nad-drink/",
       "product_id": "544",
-      "has_description": true
+      "has_description": true,
+      "verified_at": "2026-10-22T07:51:02.004826+00:00"
     },
     {
       "name": "activator",
       "url": "https://www.golden-life.cz/slim-glp-1-activator-s-berberinem/",
       "product_id": "476",
-      "has_description": true
+      "has_description": true,
+      "verified_at": "2026-10-22T07:51:02.004826+00:00"
     },
     {
       "name": "ufirst",
@@ -94,5 +105,5 @@
       "verified_at": "2026-10-15T08:31:29.838091+00:00"
     }
   ],
-  "note": "Detailed information is fetched from these canonical pages; this file lists routing, not duplicate product copy. Bottle currently has no description."
+  "note": "Details are fetched from exact canonical product pages. Entries record routing and observed availability, not duplicate product copy. Core bottle description was verified nonempty on 2026-10-22; UFIRST source metadata is unchanged."
 }

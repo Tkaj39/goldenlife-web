@@ -1,0 +1,186 @@
+{
+  "caseCount": 20,
+  "rows": [
+    {
+      "variant": "beauty",
+      "index": 0,
+      "id": "597",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "beauty",
+      "index": 1,
+      "id": "653",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "beauty",
+      "index": 2,
+      "id": "383",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "beauty",
+      "index": 3,
+      "id": "174",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "beauty",
+      "index": 4,
+      "id": "57",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "hormonal",
+      "index": 0,
+      "id": "597",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "hormonal",
+      "index": 1,
+      "id": "653",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "hormonal",
+      "index": 2,
+      "id": "644",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "hormonal",
+      "index": 3,
+      "id": "635",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "hormonal",
+      "index": 4,
+      "id": "550",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "longevity",
+      "index": 0,
+      "id": "597",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "longevity",
+      "index": 1,
+      "id": "653",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "longevity",
+      "index": 2,
+      "id": "57",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "longevity",
+      "index": 3,
+      "id": "544",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "longevity",
+      "index": 4,
+      "id": "550",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "slim",
+      "index": 0,
+      "id": "597",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "slim",
+      "index": 1,
+      "id": "653",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "slim",
+      "index": 2,
+      "id": "464",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "slim",
+      "index": 3,
+      "id": "174",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    },
+    {
+      "variant": "slim",
+      "index": 4,
+      "id": "476",
+      "status": "Podrobnosti ze stránky produktu. Stále vybíráš celý dárkový box.",
+      "actualPublicNetwork": true
+    }
+  ],
+  "responses": [
+    {
+      "v": "beauty",
+      "url": "https://cdn.jsdelivr.net/gh/pavel489/goldenlife-web@7f7a79a9d21ef83228171c2414c9833af172bc3f/assets/giftbox-detail-loader.js",
+      "status": 200
+    },
+    {
+      "v": "beauty",
+      "url": "https://www.golden-life.cz/user/documents/upload/css/golden-life-produkt.css",
+      "status": 200
+    },
+    {
+      "v": "hormonal",
+      "url": "https://cdn.jsdelivr.net/gh/pavel489/goldenlife-web@7f7a79a9d21ef83228171c2414c9833af172bc3f/assets/giftbox-detail-loader.js",
+      "status": 200
+    },
+    {
+      "v": "longevity",
+      "url": "https://cdn.jsdelivr.net/gh/pavel489/goldenlife-web@7f7a79a9d21ef83228171c2414c9833af172bc3f/assets/giftbox-detail-loader.js",
+      "status": 200
+    },
+    {
+      "v": "longevity",
+      "url": "https://www.golden-life.cz/user/documents/upload/css/golden-life-produkt.css",
+      "status": 200
+    },
+    {
+      "v": "slim",
+      "url": "https://cdn.jsdelivr.net/gh/pavel489/goldenlife-web@7f7a79a9d21ef83228171c2414c9833af172bc3f/assets/giftbox-detail-loader.js",
+      "status": 200
+    },
+    {
+      "v": "slim",
+      "url": "https://www.golden-life.cz/user/documents/upload/css/golden-life-produkt.css",
+      "status": 200
+    }
+  ],
+  "jsErrors": [],
+  "hostDocument": "Local fixture on the shop origin only. Loader CDN/raw GitHub, source products, CSS, fonts and photos use actual public network.",
+  "shopDeployed": false,
+  "purchaseActions": false
+}

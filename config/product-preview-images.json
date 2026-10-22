@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-10-07T10:35:27.105801+00:00",
+  "verified_at": "2026-10-22T07:51:02.004826+00:00",
   "sources": [
     {
       "name": "activator",
@@ -8,14 +8,10 @@
       "has_description": true,
       "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/476-1_glp-1-tabletky-vyzualizace-pozadi.png?ff=1&x=1024&y=1024&q=85&ts=6a17fe9d&sg=38cb01fe",
       "image_alt": "glp 1 tabletky vyzualizace POZADI",
-      "image_bytes": 174829,
-      "sha256": "f12f5d5238dba16872c63f5ec7dd4a6b90fab26b7a2be73c42e42e8b1d5a3b7e",
       "page_url": "https://www.golden-life.cz/slim-glp-1-activator-s-berberinem/",
-      "selector": "#main-slider-slide01 img / primary gallery fallback",
-      "dimensions": [
-        1024,
-        1024
-      ]
+      "selector": "#main-slider-slide01 img / canonical primary gallery",
+      "verified_at": "2026-10-22T07:51:02.004826+00:00",
+      "status": "verified-current-canonical-main-image"
     },
     {
       "name": "antiage",
@@ -24,30 +20,22 @@
       "has_description": true,
       "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/550_sliim-extremecollagen-box-mango-sleep-glp.png?ff=1&x=1024&y=1024&q=85&ts=6a4e077c&sg=38cb01fe",
       "image_alt": "Sliim extremecollagen BOX MANGO SLEEP GLP",
-      "image_bytes": 164873,
-      "sha256": "79e862c02f2829e11f025d5671375511643097d3d57d9299c3f25a83d8f788b0",
       "page_url": "https://www.golden-life.cz/anti-age-longevity-nad-/",
-      "selector": "#main-slider-slide01 img / primary gallery fallback",
-      "dimensions": [
-        1024,
-        1024
-      ]
+      "selector": "#main-slider-slide01 img / canonical primary gallery",
+      "verified_at": "2026-10-22T07:51:02.004826+00:00",
+      "status": "verified-current-canonical-main-image"
     },
     {
       "name": "beautynad",
       "url": "https://www.golden-life.cz/beauty-longevity-nad-drink/",
       "product_id": "544",
       "has_description": true,
-      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/544_sliim-extremecollagen-box-mango-sleep-glp.png?ff=1&x=1024&y=1024&q=85&ts=6a4e26a6&sg=38cb01fe",
+      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/544-1_box-komplet-beauty.png?ff=1&x=1024&y=1024&q=85&ts=6ace0d22&sg=38cb01fe",
       "image_alt": "Sliim extremecollagen BOX MANGO SLEEP GLP",
-      "image_bytes": 560483,
-      "sha256": "9443ded84aa4c8a389fbf29b13f72c0f39c2c55f5a84bcabf830be5d340d8d17",
       "page_url": "https://www.golden-life.cz/beauty-longevity-nad-drink/",
-      "selector": "#main-slider-slide01 img / primary gallery fallback",
-      "dimensions": [
-        1024,
-        1024
-      ]
+      "selector": "#main-slider-slide01 img / canonical primary gallery",
+      "verified_at": "2026-10-22T07:51:02.004826+00:00",
+      "status": "verified-current-canonical-main-image"
     },
     {
       "name": "booster",
@@ -56,32 +44,22 @@
       "has_description": true,
       "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/174-2_detox-pozadi.png?ff=1&x=1024&y=1024&q=85&ts=6a18183b&sg=38cb01fe",
       "image_alt": "detox pozadi",
-      "image_bytes": 162004,
-      "sha256": "9624e66930c375b5f921dc116dcadb40dc77ae92d4e887330c72aedb59afe796",
       "page_url": "https://www.golden-life.cz/slim-detox-power-plus-booster/",
-      "selector": "#main-slider-slide01 img / primary gallery fallback",
-      "dimensions": [
-        1024,
-        1024
-      ]
+      "selector": "#main-slider-slide01 img / canonical primary gallery",
+      "verified_at": "2026-10-22T07:51:02.004826+00:00",
+      "status": "verified-current-canonical-main-image"
     },
     {
       "name": "bottle",
       "url": "https://www.golden-life.cz/lahev-golden-life/",
       "product_id": "597",
-      "has_description": false,
-      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/597_lahev.png?ff=1&x=1024&y=1024&q=85&ts=6ac79f6d&sg=38cb01fe",
+      "has_description": true,
+      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/597-1_lahev.png?ff=1&x=1024&y=1024&q=85&ts=6ac88fc5&sg=38cb01fe",
       "page_url": "https://www.golden-life.cz/lahev-golden-life/",
-      "status": "verified-real-product-photo",
+      "status": "verified-current-canonical-main-image",
       "image_alt": "Láhev Golden Life",
-      "image_bytes": 185760,
-      "sha256": "a6291f3b15edecefe6a52557212d01b8743f658aa30270ffb63a12ae49b2ef95",
-      "dimensions": [
-        1024,
-        1024
-      ],
-      "selector": "#main-slider-slide01 img",
-      "verified_at": "2026-10-08T14:32:41.661981+00:00"
+      "selector": "#main-slider-slide01 img / canonical primary gallery",
+      "verified_at": "2026-10-22T07:51:02.004826+00:00"
     },
     {
       "name": "brain",
@@ -120,16 +98,12 @@
       "url": "https://www.golden-life.cz/slim-extreme-collagen-box-ananas-mango/",
       "product_id": "464",
       "has_description": true,
-      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/464_sliim-extremecollagen-box--2.png?ff=1&x=1024&y=1024&q=85&ts=68ed0622&sg=38cb01fe",
+      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/464-1_box-komplet-mango.png?ff=1&x=1024&y=1024&q=85&ts=6ace0d46&sg=38cb01fe",
       "image_alt": "Sliim extremecollagen BOX (2)",
-      "image_bytes": 490606,
-      "sha256": "0320bd6fd55ffd8274ecedd21b32906fb7a6213757dbce7911c0069368e181ff",
       "page_url": "https://www.golden-life.cz/slim-extreme-collagen-box-ananas-mango/",
-      "selector": "#main-slider-slide01 img / primary gallery fallback",
-      "dimensions": [
-        1024,
-        1024
-      ]
+      "selector": "#main-slider-slide01 img / canonical primary gallery",
+      "verified_at": "2026-10-22T07:51:02.004826+00:00",
+      "status": "verified-current-canonical-main-image"
     },
     {
       "name": "mixer",
@@ -138,62 +112,46 @@
       "has_description": true,
       "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/653_michatko.png?ff=1&x=1024&y=1024&q=85&ts=6ac4a4fc&sg=38cb01fe",
       "image_alt": "michatko",
-      "image_bytes": 114834,
-      "sha256": "d984e79633f6ff77c00d936d21c2e81d1e0fee44f9f9a8b471e932ea34dd6de5",
       "page_url": "https://www.golden-life.cz/michatko/",
-      "selector": "#main-slider-slide01 img / primary gallery fallback",
-      "dimensions": [
-        1024,
-        1024
-      ]
+      "selector": "#main-slider-slide01 img / canonical primary gallery",
+      "verified_at": "2026-10-22T07:51:02.004826+00:00",
+      "status": "verified-current-canonical-main-image"
     },
     {
       "name": "peptides",
       "url": "https://www.golden-life.cz/peptides-glp-1-woman-balance-dark-cherry/",
       "product_id": "635",
       "has_description": true,
-      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/635-1_render-cherry-combo.png?ff=1&x=1024&y=1024&q=85&ts=6abf8e1e&sg=38cb01fe",
+      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/635-1_box-komplet-peptides.png?ff=1&x=1024&y=1024&q=85&ts=6ace0dbd&sg=38cb01fe",
       "image_alt": "render cherry combo",
-      "image_bytes": 699894,
-      "sha256": "20b2efb6f9614a2f00f01914ca140def074e799e9f89b2edb9c02e6ba4581458",
       "page_url": "https://www.golden-life.cz/peptides-glp-1-woman-balance-dark-cherry/",
-      "selector": "#main-slider-slide01 img / primary gallery fallback",
-      "dimensions": [
-        1024,
-        1024
-      ]
+      "selector": "#main-slider-slide01 img / canonical primary gallery",
+      "verified_at": "2026-10-22T07:51:02.004826+00:00",
+      "status": "verified-current-canonical-main-image"
     },
     {
       "name": "pineapple",
       "url": "https://www.golden-life.cz/slim-extreme-collagen-box-s-prichuti-ananasu/",
       "product_id": "383",
       "has_description": true,
-      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/383-1_sliim-extremecollagen-box.png?ff=1&x=1024&y=1024&q=85&ts=67d2ba82&sg=38cb01fe",
+      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/383-7_box-komplet-ananas.png?ff=1&x=1024&y=1024&q=85&ts=6ace0d89&sg=38cb01fe",
       "image_alt": "Sliim extremecollagen BOX",
-      "image_bytes": 501155,
-      "sha256": "14539f156907f6348ff0cba266c96e4b4df75fd7dc586cf9e5d4807d7991d950",
       "page_url": "https://www.golden-life.cz/slim-extreme-collagen-box-s-prichuti-ananasu/",
-      "selector": "#main-slider-slide01 img / primary gallery fallback",
-      "dimensions": [
-        1024,
-        1024
-      ]
+      "selector": "#main-slider-slide01 img / canonical primary gallery",
+      "verified_at": "2026-10-22T07:51:02.004826+00:00",
+      "status": "verified-current-canonical-main-image"
     },
     {
       "name": "sleep",
       "url": "https://www.golden-life.cz/good-sleep-night-burn/",
       "product_id": "57",
       "has_description": true,
-      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/57-9_good-sleep-night-burn.png?ff=1&x=1024&y=1024&q=85&ts=6a17fefd&sg=38cb01fe",
+      "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/57-1_good-sleep-and-night-burn-doza-tabletky.png?ff=1&x=1024&y=1024&q=85&ts=6ad0eda2&sg=38cb01fe",
       "image_alt": "Good Sleep & Night Burn",
-      "image_bytes": 155215,
-      "sha256": "dae1e4b7413cd9486daec68b09221a5c77a1d6206dd7d1fa0bc48757e749017f",
       "page_url": "https://www.golden-life.cz/good-sleep-night-burn/",
-      "selector": "#main-slider-slide01 img / primary gallery fallback",
-      "dimensions": [
-        1024,
-        1024
-      ]
+      "selector": "#main-slider-slide01 img / canonical primary gallery",
+      "verified_at": "2026-10-22T07:51:02.004826+00:00",
+      "status": "verified-current-canonical-main-image"
     },
     {
       "name": "ufirst",
@@ -218,14 +176,10 @@
       "has_description": true,
       "image_url": "https://cdn.myshoptet.com/usr/www.golden-life.cz/user/shop/big/644-1_womanbalance1.png?ff=1&x=1024&y=1024&q=85&ts=6abfc83e&sg=38cb01fe",
       "image_alt": "womanbalance1",
-      "image_bytes": 191065,
-      "sha256": "46586ffb2f92425870764d77bba5235606544842a8cdaa16534834352edbf041",
       "page_url": "https://www.golden-life.cz/woman-hormonal-balance/",
-      "selector": "#main-slider-slide01 img / primary gallery fallback",
-      "dimensions": [
-        1024,
-        1024
-      ]
+      "selector": "#main-slider-slide01 img / canonical primary gallery",
+      "verified_at": "2026-10-22T07:51:02.004826+00:00",
+      "status": "verified-current-canonical-main-image"
     },
     {
       "name": "bottle_ufirst",

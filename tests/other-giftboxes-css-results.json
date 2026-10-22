@@ -1,0 +1,472 @@
+{
+  "cases": [
+    {
+      "id": "597",
+      "width": 390,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "",
+        "heading": {
+          "color": "rgb(217, 8, 23)",
+          "font": "Metropolis"
+        },
+        "card": null,
+        "table": null
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "597",
+      "width": 1440,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "",
+        "heading": {
+          "color": "rgb(217, 8, 23)",
+          "font": "Metropolis"
+        },
+        "card": null,
+        "table": null
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "653",
+      "width": 390,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#2c3038",
+        "heading": {
+          "color": "rgb(44, 48, 56)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(244, 245, 247)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(236, 238, 241)",
+          "border": "rgb(23, 26, 31)"
+        }
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "653",
+      "width": 1440,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#2c3038",
+        "heading": {
+          "color": "rgb(44, 48, 56)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(244, 245, 247)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(236, 238, 241)",
+          "border": "rgb(23, 26, 31)"
+        }
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "383",
+      "width": 390,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#e3127e",
+        "heading": {
+          "color": "rgb(227, 18, 126)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(253, 240, 247)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(242, 218, 233)",
+          "border": "rgb(195, 15, 106)"
+        }
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "383",
+      "width": 1440,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#e3127e",
+        "heading": {
+          "color": "rgb(227, 18, 126)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(253, 240, 247)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(242, 218, 233)",
+          "border": "rgb(195, 15, 106)"
+        }
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "174",
+      "width": 390,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#e3127e",
+        "heading": {
+          "color": "rgb(227, 18, 126)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(253, 240, 247)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(242, 218, 233)",
+          "border": "rgb(195, 15, 106)"
+        }
+      },
+      "coreCSSLoaded": true
+    },
+    {
+      "id": "174",
+      "width": 1440,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#e3127e",
+        "heading": {
+          "color": "rgb(227, 18, 126)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(253, 240, 247)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(242, 218, 233)",
+          "border": "rgb(195, 15, 106)"
+        }
+      },
+      "coreCSSLoaded": true
+    },
+    {
+      "id": "57",
+      "width": 390,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#d49f00",
+        "heading": {
+          "color": "rgb(212, 159, 0)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(255, 251, 239)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(250, 243, 214)",
+          "border": "rgb(184, 138, 0)"
+        }
+      },
+      "coreCSSLoaded": true
+    },
+    {
+      "id": "57",
+      "width": 1440,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#d49f00",
+        "heading": {
+          "color": "rgb(212, 159, 0)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(255, 251, 239)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(250, 243, 214)",
+          "border": "rgb(184, 138, 0)"
+        }
+      },
+      "coreCSSLoaded": true
+    },
+    {
+      "id": "644",
+      "width": 390,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#761232",
+        "heading": {
+          "color": "rgb(118, 18, 50)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(251, 238, 241)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(243, 217, 224)",
+          "border": "rgb(92, 14, 39)"
+        }
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "644",
+      "width": 1440,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#761232",
+        "heading": {
+          "color": "rgb(118, 18, 50)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(251, 238, 241)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(243, 217, 224)",
+          "border": "rgb(92, 14, 39)"
+        }
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "635",
+      "width": 390,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#761232",
+        "heading": {
+          "color": "rgb(118, 18, 50)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(251, 238, 241)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(243, 217, 224)",
+          "border": "rgb(92, 14, 39)"
+        }
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "635",
+      "width": 1440,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#761232",
+        "heading": {
+          "color": "rgb(118, 18, 50)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(251, 238, 241)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(243, 217, 224)",
+          "border": "rgb(92, 14, 39)"
+        }
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "550",
+      "width": 390,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#b81e1e",
+        "heading": {
+          "color": "rgb(184, 30, 30)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(253, 241, 241)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(244, 221, 221)",
+          "border": "rgb(151, 24, 24)"
+        }
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "550",
+      "width": 1440,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#b81e1e",
+        "heading": {
+          "color": "rgb(184, 30, 30)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(253, 241, 241)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(244, 221, 221)",
+          "border": "rgb(151, 24, 24)"
+        }
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "544",
+      "width": 390,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#bf1818",
+        "heading": {
+          "color": "rgb(191, 24, 24)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(253, 241, 241)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(248, 223, 223)",
+          "border": "rgb(153, 19, 19)"
+        }
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "544",
+      "width": 1440,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#bf1818",
+        "heading": {
+          "color": "rgb(191, 24, 24)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(253, 241, 241)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(248, 223, 223)",
+          "border": "rgb(153, 19, 19)"
+        }
+      },
+      "coreCSSLoaded": null
+    },
+    {
+      "id": "464",
+      "width": 390,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#e3127e",
+        "heading": {
+          "color": "rgb(227, 18, 126)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(253, 240, 247)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(242, 218, 233)",
+          "border": "rgb(195, 15, 106)"
+        }
+      },
+      "coreCSSLoaded": true
+    },
+    {
+      "id": "464",
+      "width": 1440,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#e3127e",
+        "heading": {
+          "color": "rgb(227, 18, 126)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(253, 240, 247)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(242, 218, 233)",
+          "border": "rgb(195, 15, 106)"
+        }
+      },
+      "coreCSSLoaded": true
+    },
+    {
+      "id": "476",
+      "width": 390,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#62388e",
+        "heading": {
+          "color": "rgb(98, 56, 142)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(243, 238, 249)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(232, 221, 244)",
+          "border": "rgb(77, 43, 114)"
+        }
+      },
+      "coreCSSLoaded": true
+    },
+    {
+      "id": "476",
+      "width": 1440,
+      "canonicalComputedParity": true,
+      "measured": {
+        "primary": "#62388e",
+        "heading": {
+          "color": "rgb(98, 56, 142)",
+          "font": "Metropolis"
+        },
+        "card": {
+          "background": "rgb(243, 238, 249)",
+          "border": "rgb(240, 240, 240)"
+        },
+        "table": {
+          "background": "rgb(232, 221, 244)",
+          "border": "rgb(77, 43, 114)"
+        }
+      },
+      "coreCSSLoaded": true
+    }
+  ],
+  "checks": [
+    {
+      "mode": "failCSS",
+      "status": "Styly zdrojového produktu se nepodařilo načíst. Zkus to prosím znovu; neúplný detail se nezobrazuje.",
+      "passed": true
+    },
+    {
+      "mode": "evilCSS",
+      "status": "Styly zdrojového produktu se nepodařilo načíst. Zkus to prosím znovu; neúplný detail se nezobrazuje.",
+      "passed": true
+    },
+    {
+      "mode": "wrongID",
+      "status": "Odkaz neodpovídá očekávanému produktu. Podrobnosti se nepodařilo bezpečně načíst.",
+      "passed": true
+    }
+  ],
+  "caseCount": 22
+}
