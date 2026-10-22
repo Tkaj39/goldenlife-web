@@ -1,0 +1,189 @@
+{
+  "caseCount": 20,
+  "rows": [
+    {
+      "variant": "Beauty",
+      "width": 320,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Hormonal",
+      "width": 320,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Longevity",
+      "width": 320,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Slim",
+      "width": 320,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "UFIRST",
+      "width": 320,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Beauty",
+      "width": 390,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Hormonal",
+      "width": 390,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Longevity",
+      "width": 390,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Slim",
+      "width": 390,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "UFIRST",
+      "width": 390,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Beauty",
+      "width": 768,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Hormonal",
+      "width": 768,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Longevity",
+      "width": 768,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Slim",
+      "width": 768,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "UFIRST",
+      "width": 768,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Beauty",
+      "width": 1440,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Hormonal",
+      "width": 1440,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Longevity",
+      "width": 1440,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "Slim",
+      "width": 1440,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "UFIRST",
+      "width": 1440,
+      "exactCopy": true,
+      "categoryPrefixOnlyLead": true,
+      "fiveIconRow": true,
+      "fiveProductDetails": true,
+      "noOverflow": true
+    }
+  ],
+  "externalRequests": [],
+  "jsErrors": [],
+  "categoryPreview": "Explicitly labelled 200-character model, not a deployed category",
+  "shopDeployed": false
+}

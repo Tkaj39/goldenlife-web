@@ -1,0 +1,389 @@
+{
+  "source_commit": "aeea6a1cfad67c0f9b8d10198f8a3de11f3f7499",
+  "changes": [
+    {
+      "variant": "Beauty",
+      "surface": "lead",
+      "old": "Golden Life Dárkový box je prémiové dárkové balení, které v jedné elegantní krabici spojuje vše pro každodenní rituál krásy a kondice. Pět produktů Golden Life – láhev, USB míchátko, Slim Extreme Collagen s příchutí ananas, Slim & Detox Power a Good Sleep & Night Burn. Ideální dárek, který potěší i poslouží.",
+      "new": "Daruj jí každodenní rituál krásy, ne další věc do skříně. Pro ženu, která si ráda dopřeje kolagenový nápoj. Pět produktů v jedné dárkové krabici, včetně lahve a míchátka — bez vybírání každého zvlášť. S příchutí ananasu.",
+      "classification": "gift recipient, routine, factual contents and purchase convenience; no physiological effect"
+    },
+    {
+      "variant": "Beauty",
+      "surface": "benefit-label",
+      "old": "Prémiový dárek",
+      "new": "Dárkový box",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Beauty",
+      "surface": "benefit-label",
+      "old": "Kolagen",
+      "new": "Ananasový nápoj",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Beauty",
+      "surface": "benefit-label",
+      "old": "Slim & Detox",
+      "new": "5 produktů",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Beauty",
+      "surface": "benefit-label",
+      "old": "Klidný spánek",
+      "new": "Osobní rituál",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Beauty",
+      "surface": "product-description",
+      "product": "Láhev Golden Life",
+      "old": "Praktická láhev na přípravu nápojů, shaků a koktejlů.",
+      "new": "Láhev pro přípravu nápojů z tohoto boxu.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Beauty",
+      "surface": "product-description",
+      "product": "USB Míchátko",
+      "old": "Nabíjecí mini mixér z nerezové oceli 304, 3 režimy, USB-C.",
+      "new": "USB míchátko pro rozmíchání nápojů.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Beauty",
+      "surface": "product-description",
+      "product": "Slim Extreme Collagen – ananas",
+      "old": "Prémiový kolagenový nápoj s příchutí ananasu pro pleť, vlasy a nehty.",
+      "new": "Kolagenový nápoj s příchutí ananasu.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Beauty",
+      "surface": "product-description",
+      "product": "Slim & Detox Power",
+      "old": "Podpora metabolismu a přirozené detoxikace organismu.",
+      "new": "Doplněk stravy Slim & Detox Power.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Beauty",
+      "surface": "product-description",
+      "product": "Good Sleep & Night Burn",
+      "old": "Tobolky pro kvalitní spánek a noční spalování tuků.",
+      "new": "Doplněk stravy Good Sleep & Night Burn.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Hormonal",
+      "surface": "lead",
+      "old": "Golden Life Dárkový box – Hormonal je prémiové dárkové balení, které v jedné elegantní krabici spojuje vše pro každodenní rituál krásy a kondice. Pět produktů – láhev, USB míchátko, Woman Hormonal Balance se Shatavari, Peptides GLP-1 Woman Balance Dark Cherry a Anti-Age Longevity NAD+. Ideální dárek, který potěší i poslouží.",
+      "new": "Osobní dárek pro ženu, která si chce dopřát chvíli pro sebe. Hotový výběr pěti produktů pro její každodenní rituál — s Woman Hormonal Balance, nápojem Dark Cherry, Anti-Age Longevity NAD+, lahví a míchátkem. V dárkové krabici.",
+      "classification": "gift recipient, routine, factual contents and purchase convenience; no physiological effect"
+    },
+    {
+      "variant": "Hormonal",
+      "surface": "benefit-label",
+      "old": "Prémiový dárek",
+      "new": "Dárek pro ni",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Hormonal",
+      "surface": "benefit-label",
+      "old": "Hormonální rovnováha",
+      "new": "Woman Balance",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Hormonal",
+      "surface": "benefit-label",
+      "old": "NAD+ a energie",
+      "new": "NAD+ řada",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Hormonal",
+      "surface": "benefit-label",
+      "old": "Klidný spánek",
+      "new": "Dark Cherry",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Hormonal",
+      "surface": "product-description",
+      "product": "Láhev Golden Life",
+      "old": "Praktická láhev na přípravu nápojů, shaků a koktejlů.",
+      "new": "Láhev pro přípravu nápojů z tohoto boxu.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Hormonal",
+      "surface": "product-description",
+      "product": "USB Míchátko",
+      "old": "Nabíjecí mini mixér z nerezové oceli 304, 3 režimy, USB-C.",
+      "new": "USB míchátko pro rozmíchání nápojů.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Hormonal",
+      "surface": "product-description",
+      "product": "Woman Hormonal Balance se Shatavari",
+      "old": "Denní tobolky – 8 rostlinných extraktů se Shatavari pro ženskou rovnováhu.",
+      "new": "Doplněk stravy Woman Hormonal Balance se Shatavari.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Hormonal",
+      "surface": "product-description",
+      "product": "Peptides GLP-1 Woman Balance Dark Cherry",
+      "old": "Večerní night drink s inositoly a kolagenem pro rovnováhu a klidný spánek.",
+      "new": "Nápoj Peptides GLP-1 Woman Balance s příchutí Dark Cherry.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Hormonal",
+      "surface": "product-description",
+      "product": "Anti-Age Longevity NAD+",
+      "old": "Longevity tablety s NAD+ pro buněčnou energii a zdravé stárnutí.",
+      "new": "Doplněk stravy Anti-Age Longevity NAD+.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Longevity",
+      "surface": "lead",
+      "old": "Golden Life Dárkový box – Longevity je prémiové dárkové balení, které v jedné elegantní krabici spojuje vše pro každodenní rituál krásy a kondice. Pět produktů Golden Life – láhev, USB míchátko, Good Sleep & Night Burn, Beauty & Longevity NAD+ a Anti-Age Longevity NAD+. Ideální dárek, který potěší i poslouží.",
+      "new": "Dárek pro ženu, kterou baví péče o sebe a promyšlené každodenní rituály. Pět produktů Golden Life v jedné krabici — s nápojem Beauty & Longevity NAD+, lahví a míchátkem. Nemusíš je vybírat a skládat zvlášť.",
+      "classification": "gift recipient, routine, factual contents and purchase convenience; no physiological effect"
+    },
+    {
+      "variant": "Longevity",
+      "surface": "benefit-label",
+      "old": "Prémiový dárek",
+      "new": "Dárkový box",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Longevity",
+      "surface": "benefit-label",
+      "old": "Kolagen",
+      "new": "Kolagenový nápoj",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Longevity",
+      "surface": "benefit-label",
+      "old": "NAD+ a energie",
+      "new": "NAD+ řada",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Longevity",
+      "surface": "benefit-label",
+      "old": "Klidný spánek",
+      "new": "5 produktů",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Longevity",
+      "surface": "product-description",
+      "product": "Láhev Golden Life",
+      "old": "Praktická láhev na přípravu nápojů, shaků a koktejlů.",
+      "new": "Láhev pro přípravu nápojů z tohoto boxu.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Longevity",
+      "surface": "product-description",
+      "product": "USB Míchátko",
+      "old": "Nabíjecí mini mixér z nerezové oceli 304, 3 režimy, USB-C.",
+      "new": "USB míchátko pro rozmíchání nápojů.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Longevity",
+      "surface": "product-description",
+      "product": "Good Sleep & Night Burn",
+      "old": "Tobolky pro kvalitní spánek a noční spalování tuků.",
+      "new": "Doplněk stravy Good Sleep & Night Burn.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Longevity",
+      "surface": "product-description",
+      "product": "Beauty & Longevity NAD+",
+      "old": "All-in-one drink s kolagenem, NAD+ a antioxidanty pro krásu a vitalitu.",
+      "new": "Nápoj Beauty & Longevity NAD+.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Longevity",
+      "surface": "product-description",
+      "product": "Anti-Age Longevity NAD+",
+      "old": "Longevity tablety s NAD+ pro buněčnou energii a zdravé stárnutí.",
+      "new": "Doplněk stravy Anti-Age Longevity NAD+.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Slim",
+      "surface": "lead",
+      "old": "Golden Life Dárkový box – Mango je prémiové dárkové balení, které v jedné elegantní krabici spojuje vše pro každodenní rituál krásy a kondice. Pět produktů Golden Life – láhev, USB míchátko, Slim Extreme Collagen s příchutí mango, Slim & Detox Power a Slim GLP-1 Activator s berberinem. Ideální dárek, který potěší i poslouží.",
+      "new": "Pro ženu, která má ráda pohyb a kolagenové nápoje. Daruj jí hotový set pro každodenní režim: kolagen s příchutí ananas–mango, dva další doplňky řady Slim, láhev a míchátko. Pět produktů v dárkové krabici, bez skládání zvlášť.",
+      "classification": "gift recipient, routine, factual contents and purchase convenience; no physiological effect"
+    },
+    {
+      "variant": "Slim",
+      "surface": "benefit-label",
+      "old": "Prémiový dárek",
+      "new": "Dárkový box",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Slim",
+      "surface": "benefit-label",
+      "old": "Kolagen",
+      "new": "Ananas–mango",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Slim",
+      "surface": "benefit-label",
+      "old": "Slim & Detox",
+      "new": "Řada Slim",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Slim",
+      "surface": "benefit-label",
+      "old": "Kontrola chuti",
+      "new": "5 produktů",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "Slim",
+      "surface": "product-description",
+      "product": "Láhev Golden Life",
+      "old": "Praktická láhev na přípravu nápojů, shaků a koktejlů.",
+      "new": "Láhev pro přípravu nápojů z tohoto boxu.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Slim",
+      "surface": "product-description",
+      "product": "USB Míchátko",
+      "old": "Nabíjecí mini mixér z nerezové oceli 304, 3 režimy, USB-C.",
+      "new": "USB míchátko pro rozmíchání nápojů.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Slim",
+      "surface": "product-description",
+      "product": "Slim Extreme Collagen – mango",
+      "old": "Prémiový kolagenový nápoj s příchutí manga pro pleť, vlasy a nehty.",
+      "new": "Kolagenový nápoj s příchutí ananas–mango.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Slim",
+      "surface": "product-description",
+      "product": "Slim & Detox Power",
+      "old": "Podpora metabolismu a přirozené detoxikace organismu.",
+      "new": "Doplněk stravy Slim & Detox Power.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "Slim",
+      "surface": "product-description",
+      "product": "Slim GLP-1 Activator s berberinem",
+      "old": "Přirozená aktivace hormonu sytosti GLP-1 – kontrola chuti a hladiny cukru.",
+      "new": "Doplněk stravy s berberinem.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "UFIRST",
+      "surface": "lead",
+      "old": "Golden Life Dárkový box – UFIRST je prémiové dárkové balení, které v jedné elegantní krabici spojuje vše pro každodenní rituál krásy a kondice. Pět produktů – Lahev UFIRST, USB míchátko, UFIRST All-in-One, UFIRST Brain & Focus a UFIRST Care Free. Ideální dárek, který potěší i poslouží.",
+      "new": "Dárek pro ty, kdo střídají práci, sport a chvíle pro sebe. all-in-one drink, dva další doplňky, lahev a míchátko v jednom boxu — praktický set pro každodenní rituál doma i na cestách. Pět produktů, jeden promyšlený dárek.",
+      "classification": "gift recipient, routine, factual contents and purchase convenience; no physiological effect"
+    },
+    {
+      "variant": "UFIRST",
+      "surface": "benefit-label",
+      "old": "Prémiový dárek",
+      "new": "Dárkový box",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "UFIRST",
+      "surface": "benefit-label",
+      "old": "All-in-One",
+      "new": "all-in-one drink",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "UFIRST",
+      "surface": "benefit-label",
+      "old": "Láhev + míchátko",
+      "new": "Lahev + míchátko",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "UFIRST",
+      "surface": "benefit-label",
+      "old": "Mozek & fokus",
+      "new": "Brain & Focus",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "UFIRST",
+      "surface": "benefit-label",
+      "old": "Klid a pohoda",
+      "new": "Care Free",
+      "classification": "neutral identification; prior unsupported effect not reissued"
+    },
+    {
+      "variant": "UFIRST",
+      "surface": "product-description",
+      "product": "Lahev UFIRST",
+      "old": "Praktická láhev na přípravu nápojů, shaků a koktejlů.",
+      "new": "Lahev UFIRST pro přípravu nápojů.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "UFIRST",
+      "surface": "product-description",
+      "product": "USB Míchátko",
+      "old": "Nabíjecí mini mixér z nerezové oceli 304, 3 režimy, USB-C.",
+      "new": "USB míchátko pro rozmíchání nápojů.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "UFIRST",
+      "surface": "product-description",
+      "product": "UFIRST All-in-One",
+      "old": "Komplexní all-in-one doplněk se širokým spektrem živin pro vitalitu.",
+      "new": "all-in-one drink pro přípravu nápoje rozmícháním ve vodě.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "UFIRST",
+      "surface": "product-description",
+      "product": "UFIRST Brain & Focus",
+      "old": "Podpora mozku, paměti a soustředění pro jasnou hlavu.",
+      "new": "Doplněk stravy UFIRST Brain & Focus.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    },
+    {
+      "variant": "UFIRST",
+      "surface": "product-description",
+      "product": "UFIRST Care Free",
+      "old": "Podpora psychické pohody a zvládání stresu.",
+      "new": "Doplněk stravy UFIRST Care Free.",
+      "classification": "factual product identification replaces unsupported effect wording; no invented approved claim"
+    }
+  ],
+  "new_physiological_claims": false,
+  "note": "Neutral gift/ritual positioning and exact product identifiers; not a claim approval register."
+}
