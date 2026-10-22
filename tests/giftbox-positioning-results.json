@@ -1,0 +1,251 @@
+{
+  "caseCount": 20,
+  "rows": [
+    {
+      "variant": "beauty",
+      "width": 320,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "hormonal",
+      "width": 320,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "longevity",
+      "width": 320,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "slim",
+      "width": 320,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "ufirst",
+      "width": 320,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "beauty",
+      "width": 390,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "hormonal",
+      "width": 390,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "longevity",
+      "width": 390,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "slim",
+      "width": 390,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "ufirst",
+      "width": 390,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "beauty",
+      "width": 768,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "hormonal",
+      "width": 768,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "longevity",
+      "width": 768,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "slim",
+      "width": 768,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "ufirst",
+      "width": 768,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "beauty",
+      "width": 1440,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "hormonal",
+      "width": 1440,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "longevity",
+      "width": 1440,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "slim",
+      "width": 1440,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    },
+    {
+      "variant": "ufirst",
+      "width": 1440,
+      "shortCopy": true,
+      "mainTitle": true,
+      "audienceAndReason": true,
+      "badgeCorrectScope": true,
+      "iconsAndDetails": true,
+      "noOverflow": true
+    }
+  ],
+  "externalRequests": [],
+  "jsErrors": [],
+  "longSourcePreservation": [
+    {
+      "file": "web/Golden Life Darkovy box Beauty/Golden_Life_Darkovy_box_cz.html",
+      "scripts_images_product_cards_and_IDs_unchanged": true
+    },
+    {
+      "file": "shoptet/beauty.html",
+      "scripts_images_product_cards_and_IDs_unchanged": true
+    },
+    {
+      "file": "web/Golden Life Darkovy box Hormonal/Golden_Life_Darkovy_box_Hormonal_cz.html",
+      "scripts_images_product_cards_and_IDs_unchanged": true
+    },
+    {
+      "file": "shoptet/hormonal.html",
+      "scripts_images_product_cards_and_IDs_unchanged": true
+    },
+    {
+      "file": "web/Golden Life Darkovy box Longevity/Golden_Life_Darkovy_box_Longevity_cz.html",
+      "scripts_images_product_cards_and_IDs_unchanged": true
+    },
+    {
+      "file": "shoptet/longevity.html",
+      "scripts_images_product_cards_and_IDs_unchanged": true
+    },
+    {
+      "file": "web/Golden Life Darkovy box Slim/Golden_Life_Darkovy_box_Mango_cz.html",
+      "scripts_images_product_cards_and_IDs_unchanged": true
+    },
+    {
+      "file": "shoptet/slim.html",
+      "scripts_images_product_cards_and_IDs_unchanged": true
+    },
+    {
+      "file": "web/Golden Life Darkovy box UFIRST/Golden_Life_Darkovy_box_UFIRST_cz.html",
+      "scripts_images_product_cards_and_IDs_unchanged": true
+    },
+    {
+      "file": "shoptet/ufirst.html",
+      "scripts_images_product_cards_and_IDs_unchanged": true
+    }
+  ],
+  "shopDeployed": false,
+  "notes": "Actual changed HTML excerpts and short descriptions in offline isolated frames. Category excerpt is a labelled model. Existing long-page scripts, images, IDs, product cards and sixth-card source were verified unchanged, not re-deployed to the shop."
+}

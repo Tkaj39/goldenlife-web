@@ -1,0 +1,200 @@
+{
+  "source_commit": "5ac919b4cff535158931ef68885e0e6c9a2e0935",
+  "variants": {
+    "beauty": {
+      "folder": "Beauty",
+      "name": "Collagen Beauty",
+      "short": "Pro její rituál krásy. Ananasový kolagenový nápoj a další čtyři produkty v jedné dárkové krabici.",
+      "role": "Dárek pro milovnici kolagenových nápojů a kosmetických rituálů.",
+      "intro": "Daruj jí kolagenový rituál s příchutí ananasu. Slim Extreme Collagen, Slim & Detox Power, Good Sleep & Night Burn, láhev a míchátko v jedné dárkové krabici.",
+      "who": "Pro ženu, která má ráda kolagenové nápoje a své kosmetické rituály.",
+      "why": "Ananasový kolagenový nápoj, dva další doplňky a praktické příslušenství. Pět produktů v dárkové krabici bez vybírání každého zvlášť.",
+      "icons": [
+        "Dárková krabice",
+        "Ananasový nápoj",
+        "Osobní rituál",
+        "Vybraný set",
+        "Láhev + míchátko",
+        "5 produktů Golden Life"
+      ],
+      "short_full": "Pro její rituál krásy. Ananasový kolagenový nápoj a další čtyři produkty v jedné dárkové krabici. Pro ženu, která si ráda dopřeje čas pro sebe. Promyšlený výběr s lahví a míchátkem — bez skládání jednotlivých produktů zvlášť."
+    },
+    "hormonal": {
+      "folder": "Hormonal",
+      "name": "Hormonal Balance",
+      "short": "Dárek pro ženy 40+. Pět produktů v dárkové krabici, včetně Woman Balance a nápoje Dark Cherry.",
+      "role": "Osobní dárek pro její každodenní rituál.",
+      "badge": "Tip na dárek pro ženy 40+",
+      "intro": "Daruj jí promyšlený výběr pro její každodenní rituál. Woman Hormonal Balance, nápoj Dark Cherry, Anti-Age Longevity NAD+, láhev a míchátko v jedné dárkové krabici. Nemusíš skládat jednotlivé produkty zvlášť.",
+      "who": "Pro partnerku, maminku nebo kamarádku 40+, která má o podobné doplňky a péči o sebe zájem.",
+      "why": "Konkrétní kombinace Woman Hormonal Balance, nápoje Dark Cherry a Anti-Age Longevity NAD+, doplněná praktickou lahví a míchátkem. Hotový výběr pěti produktů v dárkové krabici.",
+      "icons": [
+        "Dárek pro ženy 40+",
+        "Woman Balance",
+        "Dark Cherry",
+        "NAD+ řada",
+        "Láhev + míchátko",
+        "5 produktů Golden Life"
+      ],
+      "short_full": "Dárek pro ženy 40+. Pět produktů v dárkové krabici, včetně Woman Balance a nápoje Dark Cherry. Pro partnerku, maminku nebo kamarádku, která má o podobné doplňky zájem. Láhev i míchátko jsou součástí, nemusíš je vybírat zvlášť."
+    },
+    "longevity": {
+      "folder": "Longevity",
+      "name": "Longevity",
+      "short": "Pro milovnici řady NAD+. Pět produktů s nápojem Beauty & Longevity NAD+, lahví a míchátkem.",
+      "role": "Dárek pro ženu, kterou zajímá moderní péče o sebe a řada NAD+.",
+      "intro": "Beauty & Longevity NAD+, Anti-Age Longevity NAD+, Good Sleep & Night Burn, láhev a míchátko v jedné dárkové krabici. Promyšlený výběr pro její osobní každodenní rituál.",
+      "who": "Pro ženu, kterou zajímá moderní péče o sebe a řada NAD+.",
+      "why": "Nápoj Beauty & Longevity NAD+, dva další doplňky a praktická láhev s míchátkem. Pět konkrétních produktů v jednom dárkovém balení.",
+      "icons": [
+        "Dárková krabice",
+        "Kolagenový nápoj",
+        "NAD+ řada",
+        "Osobní rituál",
+        "Láhev + míchátko",
+        "5 produktů Golden Life"
+      ],
+      "short_full": "Pro milovnici řady NAD+. Pět produktů s nápojem Beauty & Longevity NAD+, lahví a míchátkem. Pro ženu, kterou zajímá moderní péče o sebe. Tři doplňky a praktické příslušenství v jednom balení, bez skládání pěti samostatných produktů."
+    },
+    "slim": {
+      "folder": "Slim",
+      "name": "Collagen Slim",
+      "short": "Pro milovnici řady Slim. Kolagen ananas–mango, dva další doplňky, láhev a míchátko v dárkové krabici.",
+      "role": "Dárek pro ženu, která si už oblíbila řadu Slim a kolagenové nápoje.",
+      "intro": "Kolagenový nápoj s příchutí ananas–mango, Slim & Detox Power, Slim GLP-1 Activator s berberinem, láhev a míchátko v jedné dárkové krabici. Praktický set pro její vlastní každodenní režim.",
+      "who": "Pro ženu, která si už oblíbila řadu Slim a kolagenové nápoje.",
+      "why": "Příchuť ananas–mango a dva další doplňky řady Slim, doplněné lahví a míchátkem. Celý výběr v jedné dárkové krabici, bez skládání jednotlivostí.",
+      "icons": [
+        "Dárková krabice",
+        "Ananas–mango",
+        "Řada Slim",
+        "Osobní režim",
+        "Láhev + míchátko",
+        "5 produktů Golden Life"
+      ],
+      "short_full": "Pro milovnici řady Slim. Kolagen ananas–mango, dva další doplňky, láhev a míchátko v dárkové krabici. Daruj jí hotový výběr pro její vlastní každodenní režim. Pět produktů pro někoho, kdo už tuto řadu zná a má ji rád — bez skládání jednotlivostí."
+    },
+    "ufirst": {
+      "folder": "UFIRST",
+      "name": "UFIRST",
+      "short": "Pro aktivní dny. all-in-one drink, dva další doplňky, lahev a míchátko v jedné dárkové krabici.",
+      "role": "Dárek pro aktivní život v práci i ve sportu.",
+      "intro": "all-in-one drink, Brain & Focus, Care Free, lahev UFIRST a USB míchátko v jednom dárkovém boxu. Praktický výběr pro každodenní rituál doma i na cestách.",
+      "who": "Pro aktivní ženy i muže, kteří střídají práci, sport a chvíle pro sebe.",
+      "why": "all-in-one drink, Brain & Focus a Care Free v praktickém setu s lahví a míchátkem. Pět produktů, jeden promyšlený dárek.",
+      "icons": [
+        "Dárková krabice",
+        "all-in-one drink",
+        "Brain & Focus",
+        "Care Free",
+        "Lahev + míchátko",
+        "5 produktů UFIRST"
+      ],
+      "short_full": "Pro aktivní dny. all-in-one drink, dva další doplňky, lahev a míchátko v jedné dárkové krabici. Praktický set pro aktivní ženy i muže, kteří střídají práci, sport a chvíle pro sebe. Pět produktů, které nemusíš vybírat a skládat zvlášť."
+    }
+  },
+  "long_intro_changes": [
+    {
+      "file": "web/Golden Life Darkovy box Beauty/Golden_Life_Darkovy_box_cz.html",
+      "old_lead": [
+        "Prémiový dárek pro krásu, kondici a klidný spánek. Pět produktů Golden Life v elegantní dárkové krabici.",
+        "Golden Life Dárkový box je promyšlené dárkové balení, které v jedné elegantní krabici spojuje vše potřebné pro každodenní rituál krásy a kondice. Obsahuje láhev Golden Life a USB míchátko pro přípravu nápojů, prémiový Slim Extreme Collagen s příchutí ananas , doplněk Slim & Detox Power a Good Sleep & Night Burn pro kvalitní spánek. Ideální dárek, který potěší i poslouží."
+      ],
+      "new_role": "Dárek pro milovnici kolagenových nápojů a kosmetických rituálů.",
+      "new_intro": "Daruj jí kolagenový rituál s příchutí ananasu. Slim Extreme Collagen, Slim & Detox Power, Good Sleep & Night Burn, láhev a míchátko v jedné dárkové krabici.",
+      "audience_badge": null
+    },
+    {
+      "file": "shoptet/beauty.html",
+      "old_lead": [
+        "Prémiový dárek pro krásu, kondici a klidný spánek. Pět produktů Golden Life v elegantní dárkové krabici.",
+        "Golden Life Dárkový box je promyšlené dárkové balení, které v jedné elegantní krabici spojuje vše potřebné pro každodenní rituál krásy a kondice. Obsahuje láhev Golden Life a USB míchátko pro přípravu nápojů, prémiový Slim Extreme Collagen s příchutí ananas , doplněk Slim & Detox Power a Good Sleep & Night Burn pro kvalitní spánek. Ideální dárek, který potěší i poslouží."
+      ],
+      "new_role": "Dárek pro milovnici kolagenových nápojů a kosmetických rituálů.",
+      "new_intro": "Daruj jí kolagenový rituál s příchutí ananasu. Slim Extreme Collagen, Slim & Detox Power, Good Sleep & Night Burn, láhev a míchátko v jedné dárkové krabici.",
+      "audience_badge": null
+    },
+    {
+      "file": "web/Golden Life Darkovy box Hormonal/Golden_Life_Darkovy_box_Hormonal_cz.html",
+      "old_lead": [
+        "Prémiový dárek pro krásu, kondici a klidný spánek. Pět produktů Golden Life v elegantní dárkové krabici.",
+        "Golden Life Dárkový box je promyšlené dárkové balení, které v jedné elegantní krabici spojuje vše potřebné pro každodenní rituál krásy a kondice. Obsahuje láhev Golden Life a USB míchátko pro přípravu nápojů a kompletní trojici pro ženskou rovnováhu a longevity – denní tobolky Woman Hormonal Balance se Shatavari , večerní Peptides GLP-1 Woman Balance Dark Cherry a Anti-Age Longevity NAD+ . Ideální dárek, který potěší i poslouží."
+      ],
+      "new_role": "Osobní dárek pro její každodenní rituál.",
+      "new_intro": "Daruj jí promyšlený výběr pro její každodenní rituál. Woman Hormonal Balance, nápoj Dark Cherry, Anti-Age Longevity NAD+, láhev a míchátko v jedné dárkové krabici. Nemusíš skládat jednotlivé produkty zvlášť.",
+      "audience_badge": "Tip na dárek pro ženy 40+"
+    },
+    {
+      "file": "shoptet/hormonal.html",
+      "old_lead": [
+        "Prémiový dárek pro krásu, kondici a klidný spánek. Pět produktů Golden Life v elegantní dárkové krabici.",
+        "Golden Life Dárkový box je promyšlené dárkové balení, které v jedné elegantní krabici spojuje vše potřebné pro každodenní rituál krásy a kondice. Obsahuje láhev Golden Life a USB míchátko pro přípravu nápojů a kompletní trojici pro ženskou rovnováhu a longevity – denní tobolky Woman Hormonal Balance se Shatavari , večerní Peptides GLP-1 Woman Balance Dark Cherry a Anti-Age Longevity NAD+ . Ideální dárek, který potěší i poslouží."
+      ],
+      "new_role": "Osobní dárek pro její každodenní rituál.",
+      "new_intro": "Daruj jí promyšlený výběr pro její každodenní rituál. Woman Hormonal Balance, nápoj Dark Cherry, Anti-Age Longevity NAD+, láhev a míchátko v jedné dárkové krabici. Nemusíš skládat jednotlivé produkty zvlášť.",
+      "audience_badge": "Tip na dárek pro ženy 40+"
+    },
+    {
+      "file": "web/Golden Life Darkovy box Longevity/Golden_Life_Darkovy_box_Longevity_cz.html",
+      "old_lead": [
+        "Prémiový dárek pro krásu, kondici a klidný spánek. Pět produktů Golden Life v elegantní dárkové krabici.",
+        "Golden Life Dárkový box je promyšlené dárkové balení, které v jedné elegantní krabici spojuje vše potřebné pro každodenní rituál krásy a kondice. Obsahuje láhev Golden Life a USB míchátko pro přípravu nápojů, Good Sleep & Night Burn pro kvalitní spánek a dvojici NAD+ produktů – Beauty & Longevity NAD+ pro krásu a vitalitu a Anti-Age Longevity NAD+ pro buněčnou energii a zdravé stárnutí. Ideální dárek, který potěší i poslouží."
+      ],
+      "new_role": "Dárek pro ženu, kterou zajímá moderní péče o sebe a řada NAD+.",
+      "new_intro": "Beauty & Longevity NAD+, Anti-Age Longevity NAD+, Good Sleep & Night Burn, láhev a míchátko v jedné dárkové krabici. Promyšlený výběr pro její osobní každodenní rituál.",
+      "audience_badge": null
+    },
+    {
+      "file": "shoptet/longevity.html",
+      "old_lead": [
+        "Prémiový dárek pro krásu, kondici a klidný spánek. Pět produktů Golden Life v elegantní dárkové krabici.",
+        "Golden Life Dárkový box je promyšlené dárkové balení, které v jedné elegantní krabici spojuje vše potřebné pro každodenní rituál krásy a kondice. Obsahuje láhev Golden Life a USB míchátko pro přípravu nápojů, Good Sleep & Night Burn pro kvalitní spánek a dvojici NAD+ produktů – Beauty & Longevity NAD+ pro krásu a vitalitu a Anti-Age Longevity NAD+ pro buněčnou energii a zdravé stárnutí. Ideální dárek, který potěší i poslouží."
+      ],
+      "new_role": "Dárek pro ženu, kterou zajímá moderní péče o sebe a řada NAD+.",
+      "new_intro": "Beauty & Longevity NAD+, Anti-Age Longevity NAD+, Good Sleep & Night Burn, láhev a míchátko v jedné dárkové krabici. Promyšlený výběr pro její osobní každodenní rituál.",
+      "audience_badge": null
+    },
+    {
+      "file": "web/Golden Life Darkovy box Slim/Golden_Life_Darkovy_box_Mango_cz.html",
+      "old_lead": [
+        "Prémiový dárek pro krásu, kondici a klidný spánek. Pět produktů Golden Life v elegantní dárkové krabici.",
+        "Golden Life Dárkový box je promyšlené dárkové balení, které v jedné elegantní krabici spojuje vše potřebné pro každodenní rituál krásy a kondice. Obsahuje láhev Golden Life a USB míchátko pro přípravu nápojů, prémiový Slim Extreme Collagen s příchutí mango , doplněk Slim & Detox Power a Slim GLP-1 Activator s berberinem pro kontrolu chuti k jídlu. Ideální dárek, který potěší i poslouží."
+      ],
+      "new_role": "Dárek pro ženu, která si už oblíbila řadu Slim a kolagenové nápoje.",
+      "new_intro": "Kolagenový nápoj s příchutí ananas–mango, Slim & Detox Power, Slim GLP-1 Activator s berberinem, láhev a míchátko v jedné dárkové krabici. Praktický set pro její vlastní každodenní režim.",
+      "audience_badge": null
+    },
+    {
+      "file": "shoptet/slim.html",
+      "old_lead": [
+        "Prémiový dárek pro krásu, kondici a klidný spánek. Pět produktů Golden Life v elegantní dárkové krabici.",
+        "Golden Life Dárkový box je promyšlené dárkové balení, které v jedné elegantní krabici spojuje vše potřebné pro každodenní rituál krásy a kondice. Obsahuje láhev Golden Life a USB míchátko pro přípravu nápojů, prémiový Slim Extreme Collagen s příchutí mango , doplněk Slim & Detox Power a Slim GLP-1 Activator s berberinem pro kontrolu chuti k jídlu. Ideální dárek, který potěší i poslouží."
+      ],
+      "new_role": "Dárek pro ženu, která si už oblíbila řadu Slim a kolagenové nápoje.",
+      "new_intro": "Kolagenový nápoj s příchutí ananas–mango, Slim & Detox Power, Slim GLP-1 Activator s berberinem, láhev a míchátko v jedné dárkové krabici. Praktický set pro její vlastní každodenní režim.",
+      "audience_badge": null
+    },
+    {
+      "file": "web/Golden Life Darkovy box UFIRST/Golden_Life_Darkovy_box_UFIRST_cz.html",
+      "old_lead": [
+        "Prémiový dárek pro krásu, kondici a klidný spánek. Pět produktů Golden Life v elegantní dárkové krabici.",
+        "Golden Life Dárkový box je promyšlené dárkové balení, které v jedné elegantní krabici spojuje vše potřebné pro každodenní rituál krásy a kondice. Obsahuje lahev UFIRST a USB míchátko pro přípravu nápojů a trojici prémiových doplňků UFIRST – komplexní All-in-One , Brain & Focus pro mozek a soustředění a Care Free pro klid a psychickou pohodu. Ideální dárek, který potěší i poslouží."
+      ],
+      "new_role": "Dárek pro aktivní život v práci i ve sportu.",
+      "new_intro": "all-in-one drink, Brain & Focus, Care Free, lahev UFIRST a USB míchátko v jednom dárkovém boxu. Praktický výběr pro každodenní rituál doma i na cestách.",
+      "audience_badge": null
+    },
+    {
+      "file": "shoptet/ufirst.html",
+      "old_lead": [
+        "Prémiový dárek pro krásu, kondici a klidný spánek. Pět produktů Golden Life v elegantní dárkové krabici.",
+        "Golden Life Dárkový box je promyšlené dárkové balení, které v jedné elegantní krabici spojuje vše potřebné pro každodenní rituál krásy a kondice. Obsahuje lahev UFIRST a USB míchátko pro přípravu nápojů a trojici prémiových doplňků UFIRST – komplexní All-in-One , Brain & Focus pro mozek a soustředění a Care Free pro klid a psychickou pohodu. Ideální dárek, který potěší i poslouží."
+      ],
+      "new_role": "Dárek pro aktivní život v práci i ve sportu.",
+      "new_intro": "all-in-one drink, Brain & Focus, Care Free, lahev UFIRST a USB míchátko v jednom dárkovém boxu. Praktický výběr pro každodenní rituál doma i na cestách.",
+      "audience_badge": null
+    }
+  ],
+  "note": "40+ is a marketing audience cue, not an age eligibility or efficacy claim. No new physiological effect claims; test effectiveness separately.",
+  "shop_deployed": false
+}
