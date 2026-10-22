@@ -47,6 +47,8 @@ function a(e,t){return n(e)||r(e,t)||o(e,t)||i()}function o(e,n){if(e){if(typeof
     const u = new URL(value, base);
     if (u.protocol !== 'https:' || u.username || u.password) throw new Error('source-css-url');
     if (allowedOrigins.has(u.origin) && u.pathname.startsWith('/user/documents/upload/UFIRST/') && brandCSS.has(u.pathname.slice('/user/documents/upload/UFIRST/'.length))) return u.href;
+    // Golden Life core descriptions use this exact, verified canonical dependency.
+    if (allowedOrigins.has(u.origin) && u.pathname === '/user/documents/upload/css/golden-life-produkt.css' && !u.search) return u.href;
     if (u.origin === 'https://fonts.googleapis.com' && u.pathname === '/css2' && u.searchParams.getAll('family').every(f => /^(Inter|Material Symbols Outlined)(:|$)/.test(f)) && u.searchParams.has('family')) return u.href;
     throw new Error('source-css-url');
   }
